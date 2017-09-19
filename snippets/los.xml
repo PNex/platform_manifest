@@ -5,14 +5,14 @@
 	<project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" remote="los" />
 	<project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" remote="los" />
 	<project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="los" />
-	<project path="hardware/qcom/audio-caf" name="LineageOS/android_hardware_qcom_audio" remote="los" /> 
-	<project path="hardware/qcom/bt-caf" name="LineageOS/android_hardware_qcom_bt" remote="los" /> 
-	<project path="hardware/qcom/camera-caf" name="LineageOS/android_hardware_qcom_camera" remote="los" /> 
-	<project path="hardware/qcom/display-caf" name="LineageOS/android_hardware_qcom_display" remote="los" /> 
-	<project path="hardware/qcom/gps-caf" name="LineageOS/android_hardware_qcom_gps" remote="los" /> 
-	<project path="hardware/qcom/keymaster-caf" name="LineageOS/android_hardware_qcom_keymaster" remote="los" /> 
-	<project path="hardware/qcom/media-caf" name="LineageOS/android_hardware_qcom_media" remote="los" /> 
-	<project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" remote="los" /> 
+	<project path="hardware/qcom/audio" name="LineageOS/android_hardware_qcom_audio" remote="los" /> 
+	<project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" remote="los" /> 
+	<project path="hardware/qcom/camera" name="LineageOS/android_hardware_qcom_camera" remote="los" /> 
+	<project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" remote="los" /> 
+	<project path="hardware/qcom/gps" name="LineageOS/android_hardware_qcom_gps" remote="los" /> 
+	<project path="hardware/qcom/keymaster" name="LineageOS/android_hardware_qcom_keymaster" remote="los" /> 
+	<project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" remote="los" /> 
+	<project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" remote="los" /> 
 	<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="los" />
 	<project path="vendor/nxp-nfc/opensource/frameworks" name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" remote="los" />
 	<project path="vendor/nxp-nfc/opensource/libnfc-nci" name="LineageOS/android_vendor_nxp-nfc_opensource_libnfc-nci" remote="los" />
