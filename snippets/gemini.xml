@@ -6,7 +6,7 @@
 	-->
 	
 	<!-- DEVICE, KERNEL & PROPRIETARY -->
-	<project path="device/xiaomi/gemini" name="mandroject/repo_test" remote="github" revision="n-mr2" />
+	<project path="device/xiaomi/gemini" name="mandroject/repo_test" remote="github" revision="pure-test" />
 	<project path="kernel/xiaomi/msm8996" name="LineageOS/android_kernel_xiaomi_msm8996" remote="los" />
 	<project path="vendor/xiaomi" name="PNex/8ecd9163adef29e1e19ea2707d97cb08" remote="pnex" revision="gemini-nougat" />
 </manifest>
