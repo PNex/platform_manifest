@@ -8,7 +8,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/kati" name="PNex/android_build_kati" groups="pdk,tradefed" remote="pnex" revision="n-mr2" />
-  <project path="build/soong" name="PNex/aosp_build_soong" groups="pdk,tradefed" remote="pnex" revision="refs/tags/android-7.1.2_r33" >
+  <project path="build/soong" name="PNex/build_soong" groups="pdk,tradefed" remote="pnex" revision="n-mr2" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
