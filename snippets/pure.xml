@@ -2,7 +2,7 @@
 <manifest>
   <!-- Pure Repo's -->
   <project path="manifest" name="PNex/platform_manifest" remote="pnex" revision="n-mr2" />
-  <!-- <project path="bionic" name="platform/bionic" groups="pdk" /> -->
+  <project path="bionic" name="PNex/aosp_bionic" groups="pdk" revision="refs/tags/android-7.1.2_r33" />
   <project path="build" name="PNex/android_build" groups="pdk" remote="pnex" revision="n-mr2" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
