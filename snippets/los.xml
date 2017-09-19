@@ -8,6 +8,7 @@
 	<project path="hardware/qcom/audio-caf/8996" name="LineageOS/android_hardware_qcom_audio" remote="los" /> 
 	<project path="hardware/qcom/bt-caf/8996" name="LineageOS/android_hardware_qcom_bt" remote="los" /> 
 	<project path="hardware/qcom/camera-caf/8996" name="LineageOS/android_hardware_qcom_camera" remote="los" /> 
+	<project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" remote="los" /> 
 	<project path="hardware/qcom/display-caf/8996" name="LineageOS/android_hardware_qcom_display" remote="los" /> 
 	<project path="hardware/qcom/gps-caf/8996" name="LineageOS/android_hardware_qcom_gps" remote="los" /> 
 	<project path="hardware/qcom/keymaster-caf/8996" name="LineageOS/android_hardware_qcom_keymaster" remote="los" /> 
