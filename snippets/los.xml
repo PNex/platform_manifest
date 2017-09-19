@@ -5,6 +5,17 @@
 	<project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" remote="los" />
 	<project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" remote="los" />
 	<project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="los" />
+	<project path="external/brctl" name="LineageOS/android_external_brctl" remote="los" />
+	<project path="external/connectivity" name="LineageOS/android_external_connectivity" remote="los" />
+
+	<project path="external/ebtables" name="LineageOS/android_external_ebtables" remote="los" />
+	<project path="external/gson" name="LineageOS/android_external_gson" remote="los" />
+	<project path="external/json-c" name="LineageOS/android_external_json-c" remote="los" />
+	<project path="external/libnetfilter_conntrack" name="LineageOS/android_external_libnetfilter_conntrack" remote="los" />
+	<project path="external/libnfnetlink" name="LineageOS/android_external_libnfnetlink" remote="los" />
+	<project path="external/powertop" name="LineageOS/android_external_powertop" remote="los" />
+	<project path="external/protobuf-c" name="LineageOS/android_external_protobuf-c" remote="los" />
+
 	<project path="hardware/qcom/audio" name="LineageOS/android_hardware_qcom_audio" remote="los" />
 	<project path="hardware/qcom/audio-caf/8996" name="LineageOS/android_hardware_qcom_audio" remote="los" /> 
 	<project path="hardware/qcom/bootctrl" name="LineageOS/android_hardware_qcom_bootctrl" remote="los" />
@@ -22,9 +33,15 @@
 	<project path="hardware/ril" name="LineageOS/android_hardware_ril" remote="los" />
 	<project path="hardware/ril-caf" name="LineageOS/android_hardware_ril" remote="los" /> 
 	<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="los" />
+  	<project path="system/qcom" name="LineageOS/android_system_qcom" remote="los" />
 	<project path="vendor/nxp-nfc/opensource/frameworks" name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" remote="los" />
 	<project path="vendor/nxp-nfc/opensource/libnfc-nci" name="LineageOS/android_vendor_nxp-nfc_opensource_libnfc-nci" remote="los" />
 	<project path="vendor/nxp-nfc/opensource/Nfc" name="LineageOS/android_vendor_nxp-nfc_opensource_Nfc" remote="los" />
 	<project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" remote="los" />
+	<project path="vendor/qcom/opensource/bluetooth" name="LineageOS/android_vendor_qcom_opensource_bluetooth" remote="los" />
+	<project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" remote="los" />
+	<project path="vendor/qcom/opensource/dpm" name="LineageOS/android_vendor_qcom_opensource_dpm" remote="los" />
+	<project path="vendor/qcom/opensource/time-services" name="LineageOS/android_vendor_qcom_opensource_time-services" remote="los" />
 	<project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" remote="los" />
+
 </manifest>
