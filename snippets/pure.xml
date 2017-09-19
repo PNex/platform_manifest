@@ -3,7 +3,7 @@
   <!-- Pure Repo's -->
   <project path="manifest" name="PNex/platform_manifest" remote="pnex" revision="n-mr2" />
   <!-- <project path="bionic" name="PNex/aosp_bionic" groups="pdk" remote="pnex" revision="refs/heads/nougat-mr2.3-release" /> -->
-  <project path="bionic" name="PNex/aosp_bionic2" groups="pdk" remote="pnex" revision="n-mr2" />
+  <project path="bionic" name="PNex/bionic" groups="pdk" remote="pnex" revision="n-mr2" />
   <project path="build" name="PNex/android_build" groups="pdk" remote="pnex" revision="n-mr2" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
