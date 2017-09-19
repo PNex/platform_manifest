@@ -10,7 +10,7 @@ To build PureNexus from source, you'll need to be familiar with
 
 To initialize your local repository, use this command:
 
-	repo init -u https://github.com/PNex/platform_manifest.git -b n-mr3
+	repo init -u https://github.com/PNex/platform_manifest.git -b n-mr2
 
 Then to sync source, use this command:
 
