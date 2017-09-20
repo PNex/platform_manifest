@@ -35,7 +35,10 @@
 	<project path="hardware/ril-caf" name="LineageOS/android_hardware_ril" remote="los" /> 
 	<project path="packages/apps/Nfc" name="LineageOS/android_packages_apps_Nfc" remote="los" />
 	<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="los" />
+	<project path="system/bt" name="LineageOS/android_system_bt" remote="los" />
   	<project path="system/qcom" name="LineageOS/android_system_qcom" remote="los" />
+	<project path="system/keymaster" name="LineageOS/android_system_keymaster" remote="los" />
+	<project path="system/media" name="LineageOS/android_system_media" remote="los" />
 	<project path="vendor/nxp-nfc/opensource/frameworks" name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" remote="los" />
 	<project path="vendor/nxp-nfc/opensource/libnfc-nci" name="LineageOS/android_vendor_nxp-nfc_opensource_libnfc-nci" remote="los" />
 	<project path="vendor/nxp-nfc/opensource/Nfc" name="LineageOS/android_vendor_nxp-nfc_opensource_Nfc" remote="los" />
@@ -45,5 +48,4 @@
 	<project path="vendor/qcom/opensource/dpm" name="LineageOS/android_vendor_qcom_opensource_dpm" remote="los" />
 	<project path="vendor/qcom/opensource/time-services" name="LineageOS/android_vendor_qcom_opensource_time-services" remote="los" />
 	<project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" remote="los" />
-
 </manifest>
