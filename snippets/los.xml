@@ -48,7 +48,7 @@
 	<project path="external/tremolo" name="LineageOS/android_external_tremolo" remote="los" />
 	<project path="external/wpa_supplicant_8" name="LineageOS/android_external_wpa_supplicant_8" remote="los" />
 	<project path="external/zlib" name="LineageOS/android_external_zlib" remote="los" />
-
+	<project path="libcore" name="LineageOS/android_libcore" remote="los" />
 
 	<project path="hardware/qcom/audio/default" name="LineageOS/android_hardware_qcom_audio" remote="los" />
 	<project path="hardware/qcom/audio-caf/8996" name="LineageOS/android_hardware_qcom_audio" remote="los" /> 
