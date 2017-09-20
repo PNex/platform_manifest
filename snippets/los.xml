@@ -30,7 +30,7 @@
 	<project path="hardware/qcom/media-caf/8996" name="LineageOS/android_hardware_qcom_media" remote="los" /> 
 	<project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" remote="los" /> 
 	<project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" remote="los" /> 
-	<project path="hardware/ril" name="LineageOS/android_hardware_ril" remote="los" />
+	<!-- <project path="hardware/ril" name="LineageOS/android_hardware_ril" remote="los" /> -->
 	<project path="hardware/ril-caf" name="LineageOS/android_hardware_ril" remote="los" /> 
 	<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="los" />
   	<project path="system/qcom" name="LineageOS/android_system_qcom" remote="los" />
