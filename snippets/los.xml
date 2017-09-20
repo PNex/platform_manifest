@@ -12,6 +12,7 @@
 	<project path="external/json-c" name="LineageOS/android_external_json-c" remote="los" />
 	<project path="external/libnetfilter_conntrack" name="LineageOS/android_external_libnetfilter_conntrack" remote="los" />
 	<project path="external/libnfc-nci" name="LineageOS/android_external_libnfc-nci" remote="los" />
+  	<project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" remote="los" />
 	<project path="external/libnfnetlink" name="LineageOS/android_external_libnfnetlink" remote="los" />
 	<project path="external/powertop" name="LineageOS/android_external_powertop" remote="los" />
 	<project path="external/protobuf-c" name="LineageOS/android_external_protobuf-c" remote="los" />
