@@ -53,7 +53,7 @@
 	<project path="hardware/qcom/audio/default" name="LineageOS/android_hardware_qcom_audio" remote="los" />
 	<project path="hardware/qcom/audio-caf/8996" name="LineageOS/android_hardware_qcom_audio" remote="los" /> 
 	<project path="hardware/qcom/bootctrl" name="LineageOS/android_hardware_qcom_bootctrl" remote="los" />
-	<!-- <project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" remote="los" />  -->
+	<project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" remote="los" />
 	<project path="hardware/qcom/bt-caf" name="LineageOS/android_hardware_qcom_bt" remote="los" /> 
 	<project path="hardware/qcom/camera" name="LineageOS/android_hardware_qcom_camera" remote="los" />
 	<project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" remote="los" />
