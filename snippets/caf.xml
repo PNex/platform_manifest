@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<project groups="pdk" name="la/platform/bionic" path="bionic" /> <!-- revision="refs/heads/android-framework.lnx.2.0.r16-rel"/> -->
+	<!-- <project groups="pdk" name="la/platform/bionic" path="bionic" revision="refs/heads/android-framework.lnx.2.0.r16-rel"/> -->
   	<!-- <project name="la/platform/build/soong" path="build/soong" remote="caf" revision="refs/heads/android-framework.lnx.2.9.1.r3-rel">
     	<linkfile dest="Android.bp" src="root.bp"/>
     	<linkfile dest="bootstrap.bash" src="bootstrap.bash"/>
