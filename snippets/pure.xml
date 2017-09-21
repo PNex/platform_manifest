@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project path="manifest" name="PNex/platform_manifest" remote="pnex" revision="n-mr2" />
-  <project path="bionic" name="PNex/bionic" groups="pdk" remote="pnex" revision="n-mr2" />
+  <!-- <project path="bionic" name="PNex/bionic" groups="pdk" remote="pnex" revision="n-mr2" /> -->
   <project path="build" name="PNex/android_build" groups="pdk" remote="pnex" revision="n-mr2" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
