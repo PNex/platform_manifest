@@ -597,4 +597,5 @@
   <include name="snippets/gemini.xml" />
   <include name="snippets/los.xml" />
   <include name="snippets/pure.xml" />
+  <include name="snippets/caf.xml" />
 </manifest>
