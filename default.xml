@@ -47,7 +47,8 @@
   <!-- CAF -->
   <remote name="caf" 
           fetch="git://codeaurora.org/quic/" 
-          review="codeaurora.org" />
+          review="codeaurora.org" 
+          revision="LA.UM.5.8.r1" />
 
   <default revision="refs/tags/android-7.1.2_r29"
           remote="aosp"
