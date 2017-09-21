@@ -2,15 +2,15 @@
 <manifest>
   <!-- Pure Repo's -->
   <project path="manifest" name="PNex/platform_manifest" remote="pnex" revision="n-mr2" />
-  <!-- <project path="bionic" name="PNex/bionic" groups="pdk" remote="pnex" revision="n-mr2" /> -->
+  <project path="bionic" name="PNex/bionic" groups="pdk" remote="pnex" revision="n-mr2" />
   <project path="build" name="PNex/android_build" groups="pdk" remote="pnex" revision="n-mr2" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/kati" name="PNex/android_build_kati" groups="pdk,tradefed" remote="pnex" revision="n-mr2" />
-  <!-- <project path="build/soong" name="PNex/build_soong" groups="pdk,tradefed" remote="pnex" revision="n-mr2" >
+  <project path="build/soong" name="PNex/build_soong" groups="pdk,tradefed" remote="pnex" revision="n-mr2" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project> -->
+  </project>
   <project path="bootable/recovery" name="PNex/android_bootable_recovery" groups="pdk" remote="pnex" revision="n-mr2" />
   <project path="external/busybox" name="PNex/android_external_busybox" remote="pnex" revision="n-mr2" />
   <project path="frameworks/av" name="PNex/android_frameworks_av" groups="pdk" remote="pnex" revision="n-mr2" />
