@@ -11,9 +11,9 @@
 	<!-- <project path="external/brctl" name="LineageOS/android_external_brctl" remote="los" /> -->
 	<!-- <project path="external/connectivity" name="LineageOS/android_external_connectivity" remote="los" /> -->
 	<!-- <project path="external/ebtables" name="LineageOS/android_external_ebtables" remote="los" /> -->
-	<!-- <project path="external/gson" name="LineageOS/android_external_gson" remote="los" /> --
-	<!-- <project path="external/json-c" name="LineageOS/android_external_json-c" remote="los" /> --
-	<!-- <project path="external/libnetfilter_conntrack" name="LineageOS/android_external_libnetfilter_conntrack" remote="los" /> --
+	<!-- <project path="external/gson" name="LineageOS/android_external_gson" remote="los" /> -->
+	<!-- <project path="external/json-c" name="LineageOS/android_external_json-c" remote="los" /> -->
+	<!-- <project path="external/libnetfilter_conntrack" name="LineageOS/android_external_libnetfilter_conntrack" remote="los" /> -->
 	<!-- <project path="external/libnfc-nci" name="LineageOS/android_external_libnfc-nci" remote="los" /> -->
   	<!-- <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" remote="los" /> -->
 	<!-- <project path="external/libnfnetlink" name="LineageOS/android_external_libnfnetlink" remote="los" /> -->
