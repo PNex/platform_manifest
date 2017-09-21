@@ -4,13 +4,6 @@
 	<project path="device/xiaomi/gemini" name="33bca/android_device_xiaomi_gemini" remote="git" revision="old_purenexus-7.1" />
 	<project name="mandroject/70097d6db60960fc07947761905380f9" path="device/xiaomi/gemini" remote="git" revision="pnexus-nougat" />
 	-->
-
-	<!-- Dragon-CAF -->
-	<remote name="caf" 
-          fetch="git://codeaurora.org/quic/" 
-          review="codeaurora.org" 
-          revision="LA.UM.5.8.r1" />
-    <project path="bionic" name="Dragons-CAF/platform_bionic" remote="github" revision="n-mr2" />
 	
 	<!-- DEVICE, KERNEL & PROPRIETARY -->
 	<project path="device/xiaomi/gemini" name="PNex/inimeg_imoaix_ecived" remote="pnex" revision="n-mr2" />
