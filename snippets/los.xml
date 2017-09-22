@@ -5,7 +5,7 @@
 	<project path="development" name="LineageOS/android_development" remote="los" />
 	<project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="los" />
 	<project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" remote="los" />
-	<project path="system/vold" name="LineageOS/android_system_vold" remote="los" groups="pdk" />
+	<!-- <project path="system/vold" name="LineageOS/android_system_vold" remote="los" groups="pdk" />-->
 	<!-- <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" remote="los" /> -->
 	<!-- <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" remote="los" /> -->
 	<!-- <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="los" /> -->
