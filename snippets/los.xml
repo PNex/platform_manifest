@@ -2,7 +2,7 @@
 <manifest>
 	<!-- <project path="bionic" name="LineageOS/android_bionic" remote="los" /> -->
 	<!-- <project path="dalvik" name="LineageOS/android_dalvik" remote="los" /> -->
-	<project path="development" name="LineageOS/android_development" remote="los" />
+	<!-- <project path="development" name="LineageOS/android_development" remote="los" /> -->
 	<project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="los" />
 	<project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" remote="los" />
 	<!-- <project path="system/vold" name="LineageOS/android_system_vold" remote="los" groups="pdk" />-->
