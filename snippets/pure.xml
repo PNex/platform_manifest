@@ -38,7 +38,7 @@
   <project path="packages/services/ThemeInterfacer" name="PNex/android_packages_apps_ThemeInterfacer" remote="pnex" revision="n-mr2" />
   <project path="system/core" name="PNex/android_system_core" groups="pdk" remote="pnex" revision="n-mr2" />
   <project path="system/sepolicy" name="PNex/android_system_sepolicy" groups="pdk" remote="pnex" revision="n-mr2" />
-  <project path="system/vold" name="PNex/android_system_vold-dcaf" groups="pdk" remote="pnex" revision="n-mr2" />
+  <!-- <project path="system/vold" name="PNex/android_system_vold-dcaf" groups="pdk" remote="pnex" revision="n-mr2" /> -->
   <!-- <project path="system/vold" name="PNex/android_system_vold" groups="pdk" remote="pnex" revision="n-mr2" /> -->
   <project path="vendor/gapps" name="PureNexus/vendor_gapps" remote="pure" revision="n-mr2" />
   <project path="vendor/pure" name="PNex/android_vendor_pure" remote="pnex" revision="n-mr2">
