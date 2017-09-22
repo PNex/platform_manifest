@@ -16,7 +16,7 @@
   <project path="external/ipsec-tools" name="PNex/android_external_ipsec-tools" remote="pnex" revision="n-mr2" />
   <project path="frameworks/av" name="PNex/android_frameworks_av" groups="pdk" remote="pnex" revision="n-mr2" />
   <!-- <project path="frameworks/base" name="PureNexusProject-Legacy/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="pleg" revision="n-mr2" /> -->
-  <project path="frameworks/base" name="GPNex/diordna_skrowemarf_esab" groups="pdk-cw-fs,pdk-fs" remote="gpnex" remote="pleg" revision="n-mr2" />
+  <project path="frameworks/base" name="GPNex/diordna_skrowemarf_esab" groups="pdk-cw-fs,pdk-fs" remote="gpnex" revision="n-mr2" />
   <project path="frameworks/native" name="PNex/android_frameworks_native" groups="pdk" remote="pnex" revision="n-mr2" />
   <project path="frameworks/support" name="PNex/android_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="pnex" revision="n-mr2" />
   <project path="packages/apps/Bluetooth" name="PNex/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="pnex" revision="n-mr2" />
