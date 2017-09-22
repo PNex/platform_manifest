@@ -16,6 +16,12 @@
           revision="refs/heads/n-mr2"
           sync-c="true"
           sync-j="4" />
+  <!-- GPNex -->
+  <remote name="gpnex"
+          fetch="https://github.com/" 
+          revision="refs/heads/n-mr2"
+          sync-c="true"
+          sync-j="4" />
   <!-- https://gitlab.com/PNex/ -->
   <remote name="pneg"
           fetch="https://gitlab.com/" 

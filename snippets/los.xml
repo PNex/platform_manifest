@@ -16,8 +16,11 @@
 	<!-- <project path="hardware/qcom/media-caf" name="LineageOS/android_hardware_qcom_media" remote="los" revision="cm-14.1-caf-8996" /> -->
 
 	<!-- VENDOR -->
+	<project path="vendor/nxp-nfc/opensource/frameworks" name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" remote="los" />
+	<project path="vendor/nxp-nfc/opensource/libnfc-nci" name="LineageOS/android_vendor_nxp-nfc_opensource_libnfc-nci" remote="los" />
+	<project path="vendor/nxp-nfc/opensource/Nfc" name="LineageOS/android_vendor_nxp-nfc_opensource_Nfc" remote="los" />
 	<!-- <project path="vendor/qcom/opensource/bluetooth" name="LineageOS/android_vendor_qcom_opensource_bluetooth" remote="los" revision="cm-14.1" /> -->
-	<!-- <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" remote="los" /> -->
+	<project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" remote="los" />
 	<!-- <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" remote="los" revision="cm-14.1" /> -->
 	<!-- <project path="vendor/qcom/opensource/dpm" name="LineageOS/android_vendor_qcom_opensource_dpm" remote="los" revision="cm-14.1" /> -->
 	<!-- <project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" remote="los" revision="cm-14.1" /> -->
