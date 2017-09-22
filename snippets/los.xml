@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+	<project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="los" />
 	<project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" remote="los" />
+
+	<!-- HARDWARE -->
+	<project path="hardware/qcom/audio" name="LineageOS/android_hardware_qcom_audio" remote="los" revision="cm-14.1" />
+	<project path="hardware/qcom/audio-caf" name="LineageOS/android_hardware_qcom_audio" remote="los" revision="cm-14.1-caf-8996" />
+	<project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" remote="los" revision="cm-14.1" />
+	<project path="hardware/qcom/camera" name="LineageOS/android_hardware_qcom_camera" remote="los" revision="cm-14.1" />
+	<project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" remote="los" revision="cm-14.1" />
+	<project path="hardware/qcom/display-caf" name="LineageOS/android_hardware_qcom_display" remote="los" revision="cm-14.1-caf-8996" />
+	<project path="hardware/qcom/gps" name="LineageOS/android_hardware_qcom_gps" remote="los" revision="cm-14.1" />
+	<project path="hardware/qcom/keymaster" name="LineageOS/android_hardware_qcom_keymaster" remote="los" revision="cm-14.1" />
+	<project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" remote="los" revision="cm-14.1" />
+	<project path="hardware/qcom/media-caf" name="LineageOS/android_hardware_qcom_media" remote="los" revision="cm-14.1-caf-8996" />
+
+	<!-- VENDOR -->
+	<project path="vendor/qcom/opensource/bluetooth" name="LineageOS/android_vendor_qcom_opensource_bluetooth" remote="los" revision="cm-14.1" />
 	<project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" remote="los" />
+	<project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" remote="los" revision="cm-14.1" />
+	<project path="vendor/qcom/opensource/dpm" name="LineageOS/android_vendor_qcom_opensource_dpm" remote="los" revision="cm-14.1" />
+	<project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" remote="los" revision="cm-14.1" />
 </manifest>
