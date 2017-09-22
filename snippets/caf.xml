@@ -5,4 +5,14 @@
     	<linkfile dest="Android.bp" src="root.bp"/>
     	<linkfile dest="bootstrap.bash" src="bootstrap.bash"/>
   	</project> -->
+
+  	<project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" remote="caf"/>
+	<project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" remote="caf"/>
+	<project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" remote="caf" />
+	<project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" remote="caf" />
+	<project path="hardware/qcom/display" name="platform/hardware/qcom/display" remote="caf" />
+	<project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" remote="caf" />
+	<project path="hardware/qcom/media" name="platform/hardware/qcom/media" remote="caf" />
+	<project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" remote="caf" />
+	<project path="hardware/ril" name="platform/hardware/ril" remote="caf" />
 </manifest>
