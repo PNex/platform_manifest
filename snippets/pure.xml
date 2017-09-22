@@ -30,12 +30,12 @@
   <project path="packages/apps/PhoneCommon" name="PNex/android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="pnex" revision="n-mr2" />
   <project path="packages/apps/PureSettings" name="PNex/android_packages_apps_PureSettings" remote="pnex" revision="n-mr2" />
   <project path="packages/apps/Settings" name="PNex/android_packages_apps_Settings" groups="pdk-fs" remote="pnex" revision="n-mr2" />
+  <project path="packages/apps/ThemeInterfacer" name="PNex/android_packages_apps_ThemeInterfacer" remote="pnex" revision="n-mr2" />
   <project path="packages/inputmethods/LatinIME" name="PNex/android_packages_inputmethods_LatinIME" groups="pdk-fs" remote="pnex" revision="n-mr2" />
   <project path="packages/providers/DownloadProvider" name="PNex/android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="pnex" revision="n-mr2" />
   <project path="packages/providers/MediaProvider" name="PNex/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="pnex" revision="n-mr2" />
   <project path="packages/services/Telecomm" name="PNex/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="pnex" revision="n-mr2" />
   <project path="packages/services/Telephony" name="PNex/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="pnex" revision="n-mr2" />
-  <project path="packages/services/ThemeInterfacer" name="PNex/android_packages_apps_ThemeInterfacer" remote="pnex" revision="n-mr2" />
   <project path="system/core" name="PNex/android_system_core" groups="pdk" remote="pnex" revision="n-mr2" />
   <project path="system/sepolicy" name="PNex/android_system_sepolicy" groups="pdk" remote="pnex" revision="n-mr2" />
   <project path="system/vold" name="PNex/android_system_vold-dcaf" groups="pdk" remote="pnex" revision="n-mr2" />

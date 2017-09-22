@@ -70,11 +70,11 @@
   <!-- <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" /> -->
   <project path="compatibility/cdd" name="platform/compatibility/cdd" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
-  <!-- <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" /> -->
+  <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
-  <!-- <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" /> -->
+  <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
   <!-- <project path="device/asus/fugu" name="device/asus/fugu" groups="device,fugu,broadcom_pdk,pdk" />
   <project path="device/asus/fugu-kernel" name="device/asus/fugu-kernel" groups="device,fugu,broadcom_pdk,pdk" clone-depth="1" /> -->
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk" />
@@ -425,7 +425,7 @@
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <!-- <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt,pdk" /> -->
-  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio,pdk" />
+  <!-- <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio,pdk" /> -->
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom,pdk" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom,pdk" />
