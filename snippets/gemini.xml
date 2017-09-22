@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<!--
-	<project path="device/xiaomi/gemini" name="33bca/android_device_xiaomi_gemini" remote="git" revision="old_purenexus-7.1" />
-	<project name="mandroject/70097d6db60960fc07947761905380f9" path="device/xiaomi/gemini" remote="git" revision="pnexus-nougat" />
-	-->
-	
 	<!-- DEVICE, KERNEL & PROPRIETARY -->
 	<project path="device/xiaomi/gemini" name="PNex/inimeg_imoaix_ecived" remote="pnex" revision="n-mr2" />
 	<project path="kernel/xiaomi/msm8996" name="LineageOS/android_kernel_xiaomi_msm8996" remote="los" />
