@@ -75,9 +75,9 @@
 	<!-- <project path="system/media" name="LineageOS/android_system_media" remote="los" /> -->
 	<!-- <project path="system/netd" name="LineageOS/android_system_netd" remote="los" /> -->
 	<!-- <project path="system/security" name="LineageOS/android_system_security" remote="los" /> -->
-	<project path="vendor/nxp-nfc/opensource/frameworks" name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" remote="los" />
-	<project path="vendor/nxp-nfc/opensource/libnfc-nci" name="LineageOS/android_vendor_nxp-nfc_opensource_libnfc-nci" remote="los" />
-	<project path="vendor/nxp-nfc/opensource/Nfc" name="LineageOS/android_vendor_nxp-nfc_opensource_Nfc" remote="los" />
+	<!-- <project path="vendor/nxp-nfc/opensource/frameworks" name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" remote="los" /> -->
+	<!-- <project path="vendor/nxp-nfc/opensource/libnfc-nci" name="LineageOS/android_vendor_nxp-nfc_opensource_libnfc-nci" remote="los" /> -->
+	<!-- <project path="vendor/nxp-nfc/opensource/Nfc" name="LineageOS/android_vendor_nxp-nfc_opensource_Nfc" remote="los" /> -->
 	<project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" remote="los" />
 	<project path="vendor/qcom/opensource/bluetooth" name="LineageOS/android_vendor_qcom_opensource_bluetooth" remote="los" />
 	<project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" remote="los" />
