@@ -6,13 +6,13 @@
     	<linkfile dest="bootstrap.bash" src="bootstrap.bash"/>
   	</project> -->
 
-  	<!-- <project path="hardware/qcom/audio" name="la/platform/hardware/qcom/audio" remote="caf" revision="refs/heads/audio-userspace.lnx.2.2.r3-rel"/> ->
-	<!-- <project path="hardware/qcom/bootctrl" name="la/platform/hardware/qcom/bootctrl" revision="refs/heads/android-blast.lnx.1.1.r15-rel"/> ->
-	<!-- <project path="hardware/qcom/bt" name="la/platform/hardware/qcom/bt" revision="refs/heads/bt.lnx.2.1.r15-rel"/> ->
-	<!-- <project path="hardware/qcom/camera" name="la/platform/hardware/qcom/camera" revision="refs/heads/camera.lnx.2.0.r1-rel"/> ->
-	<!-- <project path="hardware/qcom/display" name="la/platform/hardware/qcom/display" remote="caf" revision="refs/heads/display.lnx.3.0.r16-rel"/> ->
-	<!-- <project path="hardware/qcom/gps" name="la/platform/hardware/qcom/gps" remote="caf" revision="refs/heads/location.lnx.2.0.r16-rel"/> ->
-	<!-- <project path="hardware/qcom/media" name="la/platform/hardware/qcom/media" remote="caf" revision="refs/heads/video-userspace.lnx.2.1.r16-rel"/> ->
-	<!-- <project path="hardware/qcom/wlan" name="la/platform/hardware/qcom/wlan" remote="caf" revision="refs/heads/wlan-aosp.lnx.2.0.r16-rel"/> ->
-	<!-- <project path="hardware/ril" name="la/platform/hardware/ril" remote="caf" revision="refs/heads/atel.lnx.2.0.r15-rel"/> ->
+  	<!-- <project path="hardware/qcom/audio" name="la/platform/hardware/qcom/audio" remote="caf" revision="refs/heads/audio-userspace.lnx.2.2.r3-rel"/> -->
+	<!-- <project path="hardware/qcom/bootctrl" name="la/platform/hardware/qcom/bootctrl" revision="refs/heads/android-blast.lnx.1.1.r15-rel"/> -->
+	<!-- <project path="hardware/qcom/bt" name="la/platform/hardware/qcom/bt" revision="refs/heads/bt.lnx.2.1.r15-rel"/> -->
+	<!-- <project path="hardware/qcom/camera" name="la/platform/hardware/qcom/camera" revision="refs/heads/camera.lnx.2.0.r1-rel"/> -->
+	<!-- <project path="hardware/qcom/display" name="la/platform/hardware/qcom/display" remote="caf" revision="refs/heads/display.lnx.3.0.r16-rel"/> -->
+	<!-- <project path="hardware/qcom/gps" name="la/platform/hardware/qcom/gps" remote="caf" revision="refs/heads/location.lnx.2.0.r16-rel"/> -->
+	<!-- <project path="hardware/qcom/media" name="la/platform/hardware/qcom/media" remote="caf" revision="refs/heads/video-userspace.lnx.2.1.r16-rel"/> -->
+	<!-- <project path="hardware/qcom/wlan" name="la/platform/hardware/qcom/wlan" remote="caf" revision="refs/heads/wlan-aosp.lnx.2.0.r16-rel"/> -->
+	<!-- <project path="hardware/ril" name="la/platform/hardware/ril" remote="caf" revision="refs/heads/atel.lnx.2.0.r15-rel"/> -->
 </manifest>
