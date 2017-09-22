@@ -57,8 +57,8 @@
 	<!-- <project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" remote="los" /> -->
 	<!-- <project path="hardware/qcom/bt-caf" name="LineageOS/android_hardware_qcom_bt" remote="los" />  -->
 	<!-- <project path="hardware/qcom/camera" name="LineageOS/android_hardware_qcom_camera" remote="los" /> -->
-	<!-- <project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" remote="los" /> -->
-	<project path="hardware/qcom/display-caf/8996" name="LineageOS/android_hardware_qcom_display" remote="los" />
+	<project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" remote="los" />
+	<!-- <project path="hardware/qcom/display-caf/8996" name="LineageOS/android_hardware_qcom_display" remote="los" /> -->
 	<!-- <project path="hardware/qcom/gps" name="LineageOS/android_hardware_qcom_gps" remote="los" />  -->
 	<!-- <project path="hardware/qcom/keymaster" name="LineageOS/android_hardware_qcom_keymaster" remote="los" /> -->
 	<project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" remote="los" />
