@@ -1,3 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+	<!-- VENDOR -->
+	<project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" remote="los" />
 </manifest>
