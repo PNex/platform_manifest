@@ -44,7 +44,7 @@
           sync-c="true"
           sync-j="4" />
           
-  <!-- CAF -->
+  <!-- CAF la -->
   <remote name="caf" 
           fetch="git://codeaurora.org/quic/" 
           review="codeaurora.org" 
