@@ -65,4 +65,6 @@
 	<project path="system/media" name="PureNexusProject-Mod/android_system_media" remote="pmod" />
 	<project path="system/vold" name="PureNexusProject-Mod/android_system_vold" remote="pmod" />
 	<project path="vendor/pure" name="PureNexusProject-Mod/android_vendor_pure" remote="pmod" />
+		<linkfile src="build.sh" dest="build.sh" />
+	</project>
 </manifest>
