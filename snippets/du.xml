@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="du"
+           	fetch="https://github.com/" 
+           	revision="n7x"
+           	sync-c="true"
+          	sync-j="4" />
+
+	<project path="hardware/broadcom/libbt" name="DirtyUnicorns/android_hardware_broadcom_libbt" remote="du" />
+	<project path="hardware/broadcom/wlan" name="DirtyUnicorns/android_hardware_broadcom_wlan" remote="du" />
+</manifest>
