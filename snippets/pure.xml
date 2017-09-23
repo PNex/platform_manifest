@@ -13,7 +13,7 @@
           	sync-j="4" />
 
     <remote name="GiNex"
-           	fetch="https://github.com/" 
+           	fetch="https://gitlab.com/" 
            	revision="n-mr2"
            	sync-c="true"
           	sync-j="4" />
@@ -58,5 +58,5 @@
 	<!-- <project path="system/sepolicy" name="PNex/android_system_sepolicy" groups="pdk" remote="PNex" /> -->
 	<!-- <project path="system/vold" name="PNex/android_system_vold" groups="pdk" remote="PNex" />	 -->
 	
-	<project path="vendor/gapps" name="PNex/PNex/vendor_gapps" remote="GiNex" clone-depth="1" />
+	<project path="vendor/gapps" name="PNex/vendor_gapps" remote="GiNex" clone-depth="1" />
 </manifest>
