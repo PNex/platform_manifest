@@ -2,14 +2,23 @@
 <manifest>
 	<!-- <remove-project path="external/libnfc-nci" name="platform/external/libnfc-nci" groups="pdk" /> -->
 
-	<remove-project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" />
-	<remove-project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" />
-	<remove-project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" />
-	<remove-project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" />
-	<remove-project path="hardware/qcom/display" name="platform/hardware/qcom/display" />
-	<remove-project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
-	<remove-project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" />
-	<remove-project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
-	<remove-project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" />
-	<remove-project path="hardware/ril" name="platform/hardware/ril" />
+	<remove-project path="hardware/qcom/audio" />
+	<remove-project path="hardware/qcom/bootctrl" />
+	<remove-project path="hardware/qcom/bt" />
+	<remove-project path="hardware/qcom/camera" />
+	<remove-project path="hardware/qcom/display" />
+	<remove-project path="hardware/qcom/gps" />
+	<remove-project path="hardware/qcom/keymaster" />
+	<remove-project path="hardware/qcom/media" />
+	<remove-project path="hardware/qcom/wlan" />
+	<remove-project name="platform/hardware/qcom/audio" />
+	<remove-project name="platform/hardware/qcom/bootctrl" />
+	<remove-project name="platform/hardware/qcom/bt" />
+	<remove-project name="platform/hardware/qcom/camera" />
+	<remove-project name="platform/hardware/qcom/display" />
+	<remove-project name="platform/hardware/qcom/gps" />
+	<remove-project name="platform/hardware/qcom/keymaster" />
+	<remove-project name="platform/hardware/qcom/media" />
+	<remove-project name="platform/hardware/qcom/wlan" />
+	<remove-project name="platform/hardware/ril" />
 </manifest>
