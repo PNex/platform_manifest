@@ -4,10 +4,14 @@
 	<project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" remote="los" />
 
 	<!-- HARDWARE -->
-	<!-- <project path="hardware/qcom/audio" name="LineageOS/android_hardware_qcom_audio" remote="los" revision="cm-14.1" /> -->
-	<project path="hardware/qcom/audio-caf/msm8996" name="LineageOS/android_hardware_qcom_audio" remote="los" revision="cm-14.1-caf-8996" />
+	<project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" remote="los" revision="cm-14.1" />
+	<project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" remote="los" revision="cm-14.1" />
+	<project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="los" revision="cm-14.1" />
+	<project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="los" revision="cm-14.1" />
 	<project path="external/libnfc-nci" name="LineageOS/android_external_libnfc-nci" remote="los" revision="cm-14.1" />
 	<project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" remote="los" revision="cm-14.1" />
+	<!-- <project path="hardware/qcom/audio" name="LineageOS/android_hardware_qcom_audio" remote="los" revision="cm-14.1" /> -->
+	<project path="hardware/qcom/audio-caf/msm8996" name="LineageOS/android_hardware_qcom_audio" remote="los" revision="cm-14.1-caf-8996" />
 	<!-- <project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" remote="los" revision="cm-14.1" /> -->
 	<!-- <project path="hardware/qcom/camera" name="LineageOS/android_hardware_qcom_camera" remote="los" revision="cm-14.1" /> -->
 	<!-- <project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" remote="los" revision="cm-14.1" /> -->
@@ -20,6 +24,7 @@
 	<project path="system/qcom" name="LineageOS/android_system_qcom" remote="los" />
 
 	<!-- VENDOR -->
+	<project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" remote="los" />
 	<project path="vendor/nxp-nfc/opensource/frameworks" name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" remote="los" />
 	<project path="vendor/nxp-nfc/opensource/libnfc-nci" name="LineageOS/android_vendor_nxp-nfc_opensource_libnfc-nci" remote="los" />
 	<project path="vendor/nxp-nfc/opensource/Nfc" name="LineageOS/android_vendor_nxp-nfc_opensource_Nfc" remote="los" />
@@ -28,5 +33,4 @@
 	<project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" remote="los" />
 	<project path="vendor/qcom/opensource/dpm" name="LineageOS/android_vendor_qcom_opensource_dpm" remote="los" />
 	<project path="vendor/qcom/opensource/time-services" name="LineageOS/android_vendor_qcom_opensource_time-services" remote="los" />
-	<project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" remote="los" />
 </manifest>
