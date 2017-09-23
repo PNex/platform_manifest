@@ -8,12 +8,12 @@
 
 	<project path="art" name="PureNexusProject-Mod/android_art" remote="pmod" />
 	<project path="bionic" name="PureNexusProject-Mod/android_bionic" remote="pmod" />
-	<project path="build" name="android_build" remote="pmod">
+	<project path="build" name="PureNexusProject-Mod/android_build" remote="pmod">
 		<copyfile src="core/root.mk" dest="Makefile" />
 	</project>
 	<project path="build/blueprint" name="PureNexusProject-Mod/android_build_blueprint" remote="pmod" />
 	<project path="build/kati" name="PureNexusProject-Mod/android_build_kati" remote="pmod" />
-	<project path="build/soong" name="android_build_soong" remote="pmod" >
+	<project path="build/soong" name="PureNexusProject-Mod/android_build_soong" remote="pmod" >
 		<linkfile src="root.bp" dest="Android.bp" />
 		<linkfile src="bootstrap.bash" dest="bootstrap.bash" />
 	</project>
