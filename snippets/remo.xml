@@ -20,6 +20,6 @@
 	rm -rf tinycompress.git zlib.git f2fs-tools.git mksh.git okhttp.git skia.git
 	rm -rf tinycompress zlib f2fs-tools.git mksh okhttp skia
 
-	rm -rf ~/pnexus/.repo/projects/external/wpa_supplicant_8.git && rm -rf ~/pnexus/.repo/project-objects/platform/external/wpa_supplicant_8.git &&	rm -rf ~/pnexus/.repo/external/wpa_supplicant_8.git
+	rm -rf ~/pnexus/.repo/projects/external/broadcom.git && rm -rf ~/pnexus/.repo/project-objects/platform/external/broadcom.git &&	rm -rf ~/pnexus/.repo/external/broadcom.git
 	-->
 </manifest>
