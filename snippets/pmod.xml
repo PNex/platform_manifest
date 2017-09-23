@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote 
+			name="purenexus-mod"
+	   		fetch="https://github.com/"
+	   		revision="n-mr2" />
+
+	<project path="art" name="PureNexusProject-Mod/android_art" remote="purenexus-mod" />
+	<project path="bionic" name="PureNexusProject-Mod/android_bionic" remote="purenexus-mod" />
+	<project path="build" name="PureNexusProject-Mod/android_build" remote="purenexus-mod">
+		<copyfile src="core/root.mk" dest="Makefile" />
+	</project>
+	<project path="build/blueprint" name="PureNexusProject-Mod/android_build_blueprint" remote="purenexus-mod" />
+	<project path="build/kati" name="PureNexusProject-Mod/android_build_kati" remote="purenexus-mod" />
+	<project path="build/soong" name="PureNexusProject-Mod/android_build_soong" remote="purenexus-mod" >
+		<linkfile src="root.bp" dest="Android.bp" />
+		<linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+	</project>
+	<project path="bootable/recovery" name="PureNexusProject-Mod/android_bootable_recovery" remote="purenexus-mod" />
+	<project path="development" name="PureNexusProject-Mod/android_development" remote="purenexus-mod" />
+	<project path="libcore" name="PureNexusProject-Mod/android_libcore" remote="purenexus-mod" />
+	<!-- <project path="vendor/pure" name="PureNexusProject-Mod/android_vendor_pure" remote="purenexus-mod" /> -->
+</manifest>

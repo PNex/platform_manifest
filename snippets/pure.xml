@@ -1,17 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <!-- https://github.com/PNex/ -->
+  <remote name="pnex"
+          fetch="https://github.com/" 
+          revision="refs/heads/n-mr2"
+          sync-c="true"
+          sync-j="4" />
+  <!-- GPNex -->
+  <remote name="gpnex"
+          fetch="https://github.com/" 
+          revision="refs/heads/n-mr2"
+          sync-c="true"
+          sync-j="4" />
+  <!-- https://gitlab.com/PNex/ -->
+  <remote name="pneg"
+          fetch="https://gitlab.com/" 
+          revision="refs/tags/android-7.1.2_r33"
+          sync-c="true"
+          sync-j="4" />
+
+  <!-- PureNexus -->
+  <remote name="pure"
+          fetch="https://gitlab.com/" 
+          revision="refs/heads/n-mr2"
+          sync-c="true"
+          sync-j="4" />
+
+  <!-- PureNexusProject-Legacy -->
+  <remote name="pleg"
+          fetch="https://github.com/" 
+          revision="refs/heads/n-mr2"
+          sync-c="true"
+          sync-j="4" />
+
   <project path="manifest" name="PNex/platform_manifest" remote="pnex" revision="n-mr2" />
   <!-- <project path="bionic" name="PNex/bionic" groups="pdk" remote="pnex" revision="n-mr2" /> -->
-  <project path="bionic" name="PNex/bionic-dcaf" groups="pdk" remote="pnex" revision="n-mr2" />
-  <project path="build" name="PNex/android_build" groups="pdk" remote="pnex" revision="n-mr2" >
+  <!-- <project path="bionic" name="PNex/bionic-dcaf" groups="pdk" remote="pnex" revision="n-mr2" /> -->
+  <!-- <project path="build" name="PNex/android_build" groups="pdk" remote="pnex" revision="n-mr2" >
     <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
-  <project path="build/kati" name="PNex/android_build_kati" groups="pdk,tradefed" remote="pnex" revision="n-mr2" />
-  <project path="build/soong" name="PNex/build_soong" groups="pdk,tradefed" remote="pnex" revision="n-mr2" >
+  </project> -->
+  <!-- <project path="build/kati" name="PNex/android_build_kati" groups="pdk,tradefed" remote="pnex" revision="n-mr2" /> -->
+  <!-- <project path="build/soong" name="PNex/build_soong" groups="pdk,tradefed" remote="pnex" revision="n-mr2" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
-  <project path="bootable/recovery" name="PNex/android_bootable_recovery" groups="pdk" remote="pnex" revision="n-mr2" />
+  </project> -->
+  <!-- <project path="bootable/recovery" name="PNex/android_bootable_recovery" groups="pdk" remote="pnex" revision="n-mr2" /> -->
   <project path="external/busybox" name="PNex/android_external_busybox" remote="pnex" revision="n-mr2" />
   <project path="external/ipsec-tools" name="PNex/android_external_ipsec-tools" remote="pnex" revision="n-mr2" />
   <project path="frameworks/av" name="PNex/android_frameworks_av" groups="pdk" remote="pnex" revision="n-mr2" />

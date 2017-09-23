@@ -10,52 +10,6 @@
           fetch="https://android.googlesource.com"
           review="android-review.googlesource.com" />
 
-  <!-- https://github.com/PNex/ -->
-  <remote name="pnex"
-          fetch="https://github.com/" 
-          revision="refs/heads/n-mr2"
-          sync-c="true"
-          sync-j="4" />
-  <!-- GPNex -->
-  <remote name="gpnex"
-          fetch="https://github.com/" 
-          revision="refs/heads/n-mr2"
-          sync-c="true"
-          sync-j="4" />
-  <!-- https://gitlab.com/PNex/ -->
-  <remote name="pneg"
-          fetch="https://gitlab.com/" 
-          revision="refs/tags/android-7.1.2_r33"
-          sync-c="true"
-          sync-j="4" />
-
-  <!-- LineageOS -->
-  <remote name="los"
-          fetch="https://github.com/" 
-          revision="refs/heads/cm-14.1"
-          sync-c="true"
-          sync-j="4" />
-
-  <!-- PureNexus -->
-  <remote name="pure"
-          fetch="https://gitlab.com/" 
-          revision="refs/heads/n-mr2"
-          sync-c="true"
-          sync-j="4" />
-
-  <!-- PureNexusProject-Legacy -->
-  <remote name="pleg"
-          fetch="https://github.com/" 
-          revision="refs/heads/n-mr2"
-          sync-c="true"
-          sync-j="4" />
-          
-  <!-- CAF la -->
-  <remote name="caf" 
-          fetch="git://codeaurora.org/quic/" 
-          review="codeaurora.org" 
-          revision="LA.UM.5.8.r1" />
-
   <default revision="refs/tags/android-7.1.2_r29"
           remote="aosp"
           sync-c="true"
@@ -64,14 +18,14 @@
   <!-- <project path="build" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project> -->
-  <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
+  <!-- <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" /> -->
   <!-- <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" /> -->
   <!-- <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project> -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="platform/art" groups="pdk" />
+  <!-- <project path="art" name="platform/art" groups="pdk" /> -->
   <!-- <project path="bionic" name="platform/bionic" groups="pdk" /> -->
   <!-- <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" /> -->
   <project path="compatibility/cdd" name="platform/compatibility/cdd" groups="pdk" />
@@ -80,7 +34,7 @@
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
-  <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
+  <!-- <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" /> -->
   <!-- <project path="device/asus/fugu" name="device/asus/fugu" groups="device,fugu,broadcom_pdk,pdk" /> -->
   <!-- <project path="device/asus/fugu-kernel" name="device/asus/fugu-kernel" groups="device,fugu,broadcom_pdk,pdk" clone-depth="1" /> -->
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk" />
@@ -433,12 +387,12 @@
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt,pdk" />
   <!-- <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio,pdk" /> -->
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk" />
-  <!-- <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom,pdk" /> -->
-  <!-- <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom,pdk" /> -->
-  <!-- <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="pdk,qcom,qcom_display" /> -->
-  <!-- <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps,pdk" /> -->
-  <!-- <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster,pdk" /> -->
-  <!-- <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom,pdk" /> -->
+  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom,pdk" />
+  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom,pdk" />
+  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="pdk,qcom,qcom_display" />
+  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps,pdk" />
+  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster,pdk" />
+  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom,pdk" />
   <project path="hardware/qcom/msm8996" name="platform/hardware/qcom/msm8996" groups="qcom_msm8996" />
   <!-- <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960,pdk" /> -->
   <!-- <project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" groups="qcom_msm8994,pdk" /> -->
@@ -446,12 +400,12 @@
   <!-- <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27,pdk" /> -->
   <!-- <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84,pdk" /> -->
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom,pdk" />
-  <!-- <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan,pdk" /> -->
-  <!-- <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" /> -->
+  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan,pdk" />
+  <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3,pdk" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah,pdk" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4,pdk" />
-  <project path="libcore" name="platform/libcore" groups="pdk" />
+  <!-- <project path="libcore" name="platform/libcore" groups="pdk" /> -->
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
