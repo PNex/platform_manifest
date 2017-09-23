@@ -11,14 +11,13 @@
 	<!-- <remove-project path="hardware/qcom/keymaster" /> -->
 	<!-- <remove-project path="hardware/qcom/media" /> -->
 	<!-- <remove-project path="hardware/qcom/wlan" /> -->
-	<remove-project name="platform/hardware/qcom/audio" />
-	<remove-project name="platform/hardware/qcom/bootctrl" />
-	<remove-project name="platform/hardware/qcom/bt" />
-	<remove-project name="platform/hardware/qcom/camera" />
-	<remove-project name="platform/hardware/qcom/display" />
-	<remove-project name="platform/hardware/qcom/gps" />
-	<remove-project name="platform/hardware/qcom/keymaster" />
-	<remove-project name="platform/hardware/qcom/media" />
-	<remove-project name="platform/hardware/qcom/wlan" />
-	<remove-project name="platform/hardware/ril" />
+
+	<!-- <remove-project name="platform/external/f2fs-tools" /> -->
+	<!-- <remove-project name="platform/external/mksh" /> -->
+	<!-- <remove-project name="platform/external/okhttp" /> -->
+	<!-- <remove-project name="platform/external/skia" /> -->
+	<!--
+	rm -rf tinycompress.git zlib.git f2fs-tools.git mksh.git okhttp.git skia.git
+	rm -rf tinycompress zlib f2fs-tools.git mksh okhttp skia
+	-->
 </manifest>

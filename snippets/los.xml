@@ -3,6 +3,31 @@
 	<project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="los" />
 	<project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" remote="los" />
 
+	<!-- EXTERNAL -->
+	<project path="external/ahbottomnavigation" name="LineageOS/android_external_ahbottomnavigation" remote="los" />
+	<project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" remote="los" />
+	<project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" remote="los" />
+	<project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="los" />
+	<project path="external/bson" name="LineageOS/android_external_bson" remote="los" />
+	<project path="external/connectivity" name="LineageOS/android_external_connectivity" remote="los" />
+	<project path="external/exfat" name="LineageOS/android_external_exfat" remote="los" />
+	<project path="external/ffmpeg" name="LineageOS/android_external_ffmpeg" remote="los" />
+	<project path="external/f2fs-tools" name="LineageOS/android_external_f2fs-tools" remote="los" />
+	<project path="external/fuse" name="LineageOS/android_external_fuse" remote="los" />
+	<project path="external/mksh" name="LineageOS/android_external_mksh" remote="los" />
+	<project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="los" />
+	<project path="external/okhttp" name="LineageOS/android_external_okhttp" remote="los" />
+	<project path="external/skia" name="LineageOS/android_external_skia" remote="los" />
+	<project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="los" />
+	<project path="external/libnfc-nci" name="LineageOS/android_external_libnfc-nci" remote="los" />
+	<project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" remote="los" />
+	<project path="external/stagefright-plugins" name="LineageOS/android_external_stagefright-plugins" remote="los" />
+	<project path="external/stlport" name="LineageOS/android_external_stlport" remote="los" />
+	<project path="external/tinyalsa" name="LineageOS/android_external_tinyalsa" remote="los" />
+	<project path="external/tinycompress" name="LineageOS/android_external_tinycompress" remote="los" />
+	<project path="external/zlib" name="LineageOS/android_external_zlib" remote="los" />
+	<project path="external/wpa_supplicant_8" name="LineageOS/android_external_wpa_supplicant_8" remote="los" />
+
 	<!-- HARDWARE -->
 	<project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" remote="los" revision="cm-14.1" />
 	<project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" remote="los" revision="cm-14.1" />
@@ -10,16 +35,27 @@
 	<project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="los" revision="cm-14.1" />
 	<project path="external/libnfc-nci" name="LineageOS/android_external_libnfc-nci" remote="los" revision="cm-14.1" />
 	<project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" remote="los" revision="cm-14.1" />
-	<!-- <project path="hardware/qcom/audio" name="LineageOS/android_hardware_qcom_audio" remote="los" revision="cm-14.1" /> -->
+
+	<!--HALs-->
+	<project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" remote="los" />
+	<project path="hardware/broadcom/wlan" name="LineageOS/android_hardware_broadcom_wlan" remote="los" />
+	<project path="hardware/cyanogen" name="LineageOS/android_hardware_cyanogen" remote="los" />
+	<project path="hardware/qcom/audio/default" name="LineageOS/android_hardware_qcom_audio" remote="los" />
 	<project path="hardware/qcom/audio-caf/msm8996" name="LineageOS/android_hardware_qcom_audio" remote="los" revision="cm-14.1-caf-8996" />
-	<!-- <project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" remote="los" revision="cm-14.1" /> -->
-	<!-- <project path="hardware/qcom/camera" name="LineageOS/android_hardware_qcom_camera" remote="los" revision="cm-14.1" /> -->
-	<!-- <project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" remote="los" revision="cm-14.1" /> -->
-	<!-- <project path="hardware/qcom/display-caf" name="LineageOS/android_hardware_qcom_display" remote="los" revision="cm-14.1-caf-8996" /> -->
-	<!-- <project path="hardware/qcom/gps" name="LineageOS/android_hardware_qcom_gps" remote="los" revision="cm-14.1" /> -->
-	<!-- <project path="hardware/qcom/keymaster" name="LineageOS/android_hardware_qcom_keymaster" remote="los" revision="cm-14.1" /> -->
-	<!-- <project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" remote="los" revision="cm-14.1" /> -->
-	<!-- <project path="hardware/qcom/media-caf" name="LineageOS/android_hardware_qcom_media" remote="los" revision="cm-14.1-caf-8996" /> -->
+	<project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" remote="los" />
+	<project path="hardware/qcom/camera" name="LineageOS/android_hardware_qcom_camera" remote="los" />
+	<project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" remote="los" />
+	<project path="hardware/qcom/display-caf/msm8996" name="LineageOS/android_hardware_qcom_display" remote="los" revision="cm-14.1-caf-8996" />
+	<project path="hardware/qcom/fm" name="LineageOS/android_hardware_qcom_fm" remote="los" />
+	<project path="hardware/qcom/gps" name="LineageOS/android_hardware_qcom_gps" remote="los" />
+	<project path="hardware/qcom/keymaster" name="LineageOS/android_hardware_qcom_keymaster" remote="los" />
+	<project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" remote="los" />
+	<project path="hardware/qcom/media-caf/msm8996" name="LineageOS/android_hardware_qcom_media" remote="los" revision="cm-14.1-caf-8996" />
+	<project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" remote="los" />
+	<project path="hardware/ril" name="LineageOS/android_hardware_ril" remote="los" />
+	<project path="hardware/qcom/bt-caf" name="LineageOS/android_hardware_qcom_bt" remote="los" revision="cm-14.1-caf" />
+	<project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" remote="los" revision="cm-14.1-caf" />
+	<project path="hardware/ril-caf" name="LineageOS/android_hardware_ril" remote="los" revision="cm-14.1-caf" />
 
 	<project path="system/qcom" name="LineageOS/android_system_qcom" remote="los" />
 
