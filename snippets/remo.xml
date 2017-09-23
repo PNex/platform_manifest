@@ -2,15 +2,15 @@
 <manifest>
 	<!-- <remove-project path="external/libnfc-nci" name="platform/external/libnfc-nci" groups="pdk" /> -->
 
-	<remove-project path="hardware/qcom/audio" />
-	<remove-project path="hardware/qcom/bootctrl" />
-	<remove-project path="hardware/qcom/bt" />
-	<remove-project path="hardware/qcom/camera" />
-	<remove-project path="hardware/qcom/display" />
-	<remove-project path="hardware/qcom/gps" />
-	<remove-project path="hardware/qcom/keymaster" />
-	<remove-project path="hardware/qcom/media" />
-	<remove-project path="hardware/qcom/wlan" />
+	<!-- <remove-project path="hardware/qcom/audio" /> -->
+	<!-- <remove-project path="hardware/qcom/bootctrl" /> -->
+	<!-- <remove-project path="hardware/qcom/bt" /> -->
+	<!-- <remove-project path="hardware/qcom/camera" /> -->
+	<!-- <remove-project path="hardware/qcom/display" /> -->
+	<!-- <remove-project path="hardware/qcom/gps" /> -->
+	<!-- <remove-project path="hardware/qcom/keymaster" /> -->
+	<!-- <remove-project path="hardware/qcom/media" /> -->
+	<!-- <remove-project path="hardware/qcom/wlan" /> -->
 	<remove-project name="platform/hardware/qcom/audio" />
 	<remove-project name="platform/hardware/qcom/bootctrl" />
 	<remove-project name="platform/hardware/qcom/bt" />
