@@ -598,4 +598,5 @@
   <include name="snippets/los.xml" />
   <include name="snippets/pure.xml" />
   <include name="snippets/caf.xml" />
+  <include name="snippets/remo.xml" />
 </manifest>
