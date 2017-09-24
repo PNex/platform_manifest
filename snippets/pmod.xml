@@ -58,12 +58,12 @@
 	<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="PureNexusProject-Mod/arm-eabi-4.8" remote="pmod" clone-depth="1" />
 	<project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="PureNexusProject-Mod/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="pmod" clone-depth="1" />
 
-	<project path="system/bt" name="PureNexusProject-Mod/android_system_bt" remote="pmod" />
-	<project path="system/core" name="PureNexusProject-Mod/android_system_core" remote="pmod" />
-	<project path="system/extras" name="PureNexusProject-Mod/android_system_extras" remote="pmod" />
-	<project path="system/sepolicy" name="PureNexusProject-Mod/android_system_sepolicy" remote="pmod" />
-	<project path="system/media" name="PureNexusProject-Mod/android_system_media" remote="pmod" />
-	<project path="system/vold" name="PureNexusProject-Mod/android_system_vold" remote="pmod" />
+	<!-- <project path="system/bt" name="PureNexusProject-Mod/android_system_bt" remote="pmod" /> -->
+	<!-- <project path="system/core" name="PureNexusProject-Mod/android_system_core" remote="pmod" /> -->
+	<!-- <project path="system/extras" name="PureNexusProject-Mod/android_system_extras" remote="pmod" /> -->
+	<!-- <project path="system/sepolicy" name="PureNexusProject-Mod/android_system_sepolicy" remote="pmod" /> -->
+	<!-- <project path="system/media" name="PureNexusProject-Mod/android_system_media" remote="pmod" /> -->
+	<!-- <project path="system/vold" name="PureNexusProject-Mod/android_system_vold" remote="pmod" /> -->
 	<project path="vendor/pure" name="PureNexusProject-Mod/android_vendor_pure" remote="pmod" >
 		<linkfile src="build.sh" dest="build.sh" />
 	</project>
