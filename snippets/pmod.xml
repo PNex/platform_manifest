@@ -46,8 +46,8 @@
 	<project path="packages/services/Telephony" name="PureNexusProject-Mod/android_packages_services_Telephony" remote="pmod" />
 	<project path="packages/services/Telecomm" name="PureNexusProject-Mod/android_packages_services_Telecomm" remote="pmod" />
 	<project path="packages/services/ThemeInterfacer" name="PureNexusProject-Mod/android_packages_services_ThemeInterfacer" remote="pmod" />
-	<project path="packages/apps/PureSettings" name="PureNexusProject-Mod/android_packages_apps_PureSettings" remote="pmod" />
-	<project path="packages/apps/Settings" name="PureNexusProject-Mod/android_packages_apps_Settings" remote="pmod" />
+	<!-- <project path="packages/apps/PureSettings" name="PureNexusProject-Mod/android_packages_apps_PureSettings" remote="pmod" /> -->
+	<!-- <project path="packages/apps/Settings" name="PureNexusProject-Mod/android_packages_apps_Settings" remote="pmod" /> -->
 	<project path="packages/apps/Nfc" name="PureNexusProject-Mod/android_packages_apps_Nfc" remote="pmod" />
 	<project path="packages/apps/DSPlibs" name="PureNexusProject-Mod/android_packages_apps_DSPlibs" remote="pmod" />
 	<project path="external/wpa_supplicant_8" name="PureNexusProject-Mod/android_external_wpa_supplicant_8" remote="pmod" />
