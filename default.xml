@@ -526,8 +526,8 @@
 	<project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
 	<include name="snippets/gemini.xml" />
-	<include name="snippets/pure.xml" />
 	<include name="snippets/pmod.xml" />
-	<include name="snippets/los.xml" />
+	<include name="snippets/pure.xml" />
 	<include name="snippets/du.xml" />
+	<include name="snippets/los.xml" />
 </manifest>
