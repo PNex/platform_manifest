@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+	<remote fetch="https://codeaurora.org/quic/" name="caf" review="codeaurora.org"/>
+
 	<!-- DEVICE, KERNEL & PROPRIETARY -->
 	<project path="device/xiaomi/gemini" name="PNex/inimeg_imoaix_ecived" remote="github" revision="n-mr2" />
 	<project path="kernel/xiaomi/msm8996" name="LineageOS/android_kernel_xiaomi_msm8996" remote="github" revision="cm-14.1" />
 	<!-- <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" group="pdk,msm8996" /> -->
 	<project path="vendor/xiaomi" name="PNex/inimeg_imoaix_rodnev" remote="github" revision="gemini-nougat" />
+
+	<project path="hardware/qcom/display-caf/msm8996" name="la/platform/hardware/qcom/display" remote="caf" revision="display.lnx.3.0.r5-rel" groups="qcom,default" />
 </manifest>
