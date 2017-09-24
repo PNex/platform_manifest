@@ -44,7 +44,7 @@
 	<project path="external/tinycompress" name="LineageOS/android_external_tinycompress" remote="los" />
 	<project path="external/tinyalsa" name="LineageOS/android_external_tinyalsa" remote="los" />
 	
-	<project path="system/netd" name="LineageOS/android_system_netd" remote="los" />
+	<!-- <project path="system/netd" name="LineageOS/android_system_netd" remote="los" /> -->
 	<project path="system/qcom" name="LineageOS/android_system_qcom" remote="los" />
 
 	<project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" remote="los" />
