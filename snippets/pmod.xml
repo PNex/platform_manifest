@@ -34,8 +34,8 @@
 	<project path="frameworks/support" name="PureNexusProject-Mod/android_frameworks_support" remote="pmod" />
 	
 	<project path="hardware/libhardware" name="PureNexusProject-Mod/android_hardware_libhardware" remote="pmod" />
-	<project path="hardware/ril" name="PureNexusProject-Mod/android_hardware_ril" remote="pmod" />
-	<project path="hardware/ril-caf" name="PureNexusProject-Mod/android_hardware_ril" remote="pmod" revision="n-mr2-caf" />
+	<!-- <project path="hardware/ril" name="PureNexusProject-Mod/android_hardware_ril" remote="pmod" /> -->
+	<!-- <project path="hardware/ril-caf" name="PureNexusProject-Mod/android_hardware_ril" remote="pmod" revision="n-mr2-caf" /> -->
 	
 	<project path="packages/apps/PureOTA" name="PureNexusProject-Mod/android_packages_apps_PureOTA" remote="pmod" />
 	<project path="packages/apps/DUI" name="PureNexusProject-Mod/android_packages_apps_DUI" remote="pmod" />
