@@ -32,7 +32,7 @@
 
 	<!-- <project path="frameworks/av" name="PNex/android_frameworks_av" groups="pdk" remote="PNex" /> -->
 	<!-- <project path="frameworks/base" name="PNex/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="PNex" /> -->
-	<!-- <project path="frameworks/native" name="PNex/android_frameworks_native" groups="pdk" remote="PNex" /> -->
+	<project path="frameworks/native" name="PNex/android_frameworks_native" groups="pdk" remote="PNex" />
 	<!-- <project path="frameworks/support" name="PNex/android_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="PNex" /> -->
 
 	<project path="packages/apps/Bluetooth" name="PNex/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="PNex" />

@@ -26,7 +26,7 @@
 	
 	<project path="frameworks/av" name="PureNexusProject-Mod/android_frameworks_av" remote="pmod" />
 	<project path="frameworks/base" name="PureNexusProject-Mod/android_frameworks_base" remote="pmod" />
-	<project path="frameworks/native" name="PureNexusProject-Mod/android_frameworks_native" remote="pmod" />
+	<!-- <project path="frameworks/native" name="PureNexusProject-Mod/android_frameworks_native" remote="pmod" /> -->
 	<project path="frameworks/opt/telephony" name="PureNexusProject-Mod/android_frameworks_opt_telephony" remote="pmod" />
 	<project path="frameworks/opt/net/ims" name="PureNexusProject-Mod/android_frameworks_opt_net_ims" remote="pmod" />
 	<project path="frameworks/opt/net/wifi" name="PureNexusProject-Mod/android_frameworks_opt_net_wifi" remote="pmod" />
