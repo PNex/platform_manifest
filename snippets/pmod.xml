@@ -24,18 +24,18 @@
 	<project path="device/qcom/sepolicy" name="PureNexusProject-Mod/android_device_qcom_sepolicy" remote="pmod" />
 	<project path="device/qcom/common" name="PureNexusProject-Mod/android_device_qcom_common" remote="pmod" />
 	
-	<project path="frameworks/av" name="PureNexusProject-Mod/android_frameworks_av" remote="pmod" />
-	<project path="frameworks/base" name="PureNexusProject-Mod/android_frameworks_base" remote="pmod" />
+	<!-- <project path="frameworks/av" name="PureNexusProject-Mod/android_frameworks_av" remote="pmod" /> -->
+	<!-- <project path="frameworks/base" name="PureNexusProject-Mod/android_frameworks_base" remote="pmod" /> -->
 	<!-- <project path="frameworks/native" name="PureNexusProject-Mod/android_frameworks_native" remote="pmod" /> -->
-	<project path="frameworks/opt/telephony" name="PureNexusProject-Mod/android_frameworks_opt_telephony" remote="pmod" />
-	<project path="frameworks/opt/net/ims" name="PureNexusProject-Mod/android_frameworks_opt_net_ims" remote="pmod" />
-	<project path="frameworks/opt/net/wifi" name="PureNexusProject-Mod/android_frameworks_opt_net_wifi" remote="pmod" />
-	<project path="frameworks/rs" name="PureNexusProject-Mod/android_frameworks_rs" remote="pmod" />
-	<project path="frameworks/support" name="PureNexusProject-Mod/android_frameworks_support" remote="pmod" />
+	<!-- <project path="frameworks/opt/telephony" name="PureNexusProject-Mod/android_frameworks_opt_telephony" remote="pmod" /> -->
+	<!-- <project path="frameworks/opt/net/ims" name="PureNexusProject-Mod/android_frameworks_opt_net_ims" remote="pmod" /> -->
+	<!-- <project path="frameworks/opt/net/wifi" name="PureNexusProject-Mod/android_frameworks_opt_net_wifi" remote="pmod" /> -->
+	<!-- <project path="frameworks/rs" name="PureNexusProject-Mod/android_frameworks_rs" remote="pmod" /> -->
+	<!-- <project path="frameworks/support" name="PureNexusProject-Mod/android_frameworks_support" remote="pmod" /> -->
 	
-	<project path="hardware/libhardware" name="PureNexusProject-Mod/android_hardware_libhardware" remote="pmod" />
-	<project path="hardware/ril" name="PureNexusProject-Mod/android_hardware_ril" remote="pmod" />
-	<project path="hardware/ril-caf" name="PureNexusProject-Mod/android_hardware_ril" remote="pmod" revision="n-mr2-caf" />
+	<!-- <project path="hardware/libhardware" name="PureNexusProject-Mod/android_hardware_libhardware" remote="pmod" /> -->
+	<!-- <project path="hardware/ril" name="PureNexusProject-Mod/android_hardware_ril" remote="pmod" /> -->
+	<!-- <project path="hardware/ril-caf" name="PureNexusProject-Mod/android_hardware_ril" remote="pmod" revision="n-mr2-caf" /> -->
 	
 	<project path="packages/apps/PureOTA" name="PureNexusProject-Mod/android_packages_apps_PureOTA" remote="pmod" />
 	<project path="packages/apps/DUI" name="PureNexusProject-Mod/android_packages_apps_DUI" remote="pmod" />
