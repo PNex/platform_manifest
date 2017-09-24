@@ -62,8 +62,8 @@
 	<project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device,pdk" />
 	<project path="device/google/atv" name="device/google/atv" groups="device,fugu,broadcom_pdk,generic_fs,pdk" />
 	<project path="device/google/contexthub" name="device/google/contexthub" groups="device,marlin,pdk" />
-	<project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder,pdk" />
-	<project path="device/intel/edison" name="device/intel/edison" groups="device,pdk" />
+	<!-- <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder,pdk" /> -->
+	<!-- <project path="device/intel/edison" name="device/intel/edison" groups="device,pdk" /> -->
 	<project path="device/sample" name="device/sample" groups="pdk" />
 	<project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
 	<project path="external/aac" name="platform/external/aac" groups="pdk" />
