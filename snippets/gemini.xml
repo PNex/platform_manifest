@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote fetch="https://codeaurora.org/quic/" name="caf" review="codeaurora.org"/>
+	<remote fetch="https://source.codeaurora.org/quic/" name="caf" review="codeaurora.org"/>
 
 	<!-- DEVICE, KERNEL & PROPRIETARY -->
 	<project path="device/xiaomi/gemini" name="PNex/inimeg_imoaix_ecived" remote="github" revision="n-mr2" />
