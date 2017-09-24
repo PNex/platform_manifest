@@ -3,6 +3,6 @@
 	<!-- DEVICE, KERNEL & PROPRIETARY -->
 	<project path="device/xiaomi/gemini" name="PNex/inimeg_imoaix_ecived" remote="github" revision="n-mr2" />
 	<project path="kernel/xiaomi/msm8996" name="LineageOS/android_kernel_xiaomi_msm8996" remote="github" revision="cm-14.1" />
-	<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" />
+	<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" group="msm,kernel" />
 	<project path="vendor/xiaomi" name="PNex/inimeg_imoaix_rodnev" remote="github" revision="gemini-nougat" />
 </manifest>
