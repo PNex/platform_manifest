@@ -341,13 +341,13 @@
 	<project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" groups="pdk-fs" />
 	<!-- <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" /> -->
 	<project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs,pdk-fs" />
-	<project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" />
+	<!-- <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" /> -->
 	<project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" />
 	<project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" />
-	<project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
+	<!-- <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" /> -->
 	<project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
 	<project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
-	<project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
+	<!-- <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" /> -->
 	<!-- <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs,pdk-fs" /> -->
 	<project path="frameworks/data-binding" name="platform/frameworks/data-binding" groups="pdk-cw-fs,pdk-fs" />
 	<project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs,pdk-fs" />
@@ -359,7 +359,7 @@
 	<project path="hardware/bsp/intel" name="platform/hardware/bsp/intel" groups="pdk" />
 	<project path="hardware/google/apf" name="platform/hardware/google/apf" groups="pdk" />
 	<project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk" />
-	<project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
+	<!-- <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" /> -->
 	<!-- <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" /> -->
 	<project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt,pdk" />
 	<!-- <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio,pdk" /> -->
@@ -373,7 +373,7 @@
 	<project path="hardware/qcom/msm8996" name="platform/hardware/qcom/msm8996" groups="qcom_msm8996" />
 	<project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom,pdk" />
 	<!-- <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan,pdk" /> -->
-	<project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
+	<!-- <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" /> -->
 	<project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3,pdk" />
 	<project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah,pdk" />
 	<project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4,pdk" />
@@ -486,7 +486,7 @@
 	
 	<project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
 	
-	<project path="system/bt" name="platform/system/bt" groups="pdk" />
+	<!-- <project path="system/bt" name="platform/system/bt" groups="pdk" /> -->
 	<project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk" />
 	<project path="system/connectivity/apmanager" name="platform/system/connectivity/apmanager" />
 	<project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" />
@@ -496,7 +496,7 @@
 	<project path="system/firewalld" name="platform/system/firewalld" />
 	<project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
 	<project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
-	<project path="system/media" name="platform/system/media" groups="pdk" />
+	<!-- <project path="system/media" name="platform/system/media" groups="pdk" /> -->
 	<project path="system/nativepower" name="platform/system/nativepower" />
 	<project path="system/netd" name="platform/system/netd" groups="pdk" />
 	<project path="system/nvram" name="platform/system/nvram" />
