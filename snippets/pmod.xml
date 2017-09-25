@@ -1,73 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="pmod"
-           	fetch="https://github.com/"
+	<remote name="PMod"
+           	fetch="https://github.com/" 
            	revision="n-mr2"
            	sync-c="true"
           	sync-j="4" />
 
-	<project path="art" name="PureNexusProject-Mod/android_art" remote="pmod" />
-	<project path="bionic" name="PureNexusProject-Mod/android_bionic" remote="pmod" />
-	<project path="build" name="PureNexusProject-Mod/android_build" remote="pmod">
+	<!-- <project path="manifest" name="manifest" remote="PMod" /> -->
+	<project path="art" name="PureNexusProject-Mod/android_art" remote="PMod" />
+	<project path="bionic" name="PureNexusProject-Mod/android_bionic" remote="PMod" />
+	<project path="build" name="PureNexusProject-Mod/android_build" remote="PMod">
 		<copyfile src="core/root.mk" dest="Makefile" />
 	</project>
-	<project path="build/blueprint" name="PureNexusProject-Mod/android_build_blueprint" remote="pmod" />
-	<project path="build/kati" name="PureNexusProject-Mod/android_build_kati" remote="pmod" />
-	<project path="build/soong" name="PureNexusProject-Mod/android_build_soong" remote="pmod" >
+	<project path="build/blueprint" name="PureNexusProject-Mod/android_build_blueprint" remote="PMod" />
+	<project path="build/kati" name="PureNexusProject-Mod/android_build_kati" remote="PMod" />
+	<project path="build/soong" name="PureNexusProject-Mod/android_build_soong" remote="PMod" >
 		<linkfile src="root.bp" dest="Android.bp" />
 		<linkfile src="bootstrap.bash" dest="bootstrap.bash" />
 	</project>
-	<project path="bootable/recovery" name="PureNexusProject-Mod/android_bootable_recovery" remote="pmod" />
-
-	<project path="development" name="PureNexusProject-Mod/android_development" remote="pmod" />
-	
-	<project path="device/qcom/sepolicy" name="PureNexusProject-Mod/android_device_qcom_sepolicy" remote="pmod" />
-	<project path="device/qcom/common" name="PureNexusProject-Mod/android_device_qcom_common" remote="pmod" />
-	
-	<project path="frameworks/av" name="PureNexusProject-Mod/android_frameworks_av" remote="pmod" />
-	<project path="frameworks/base" name="PureNexusProject-Mod/android_frameworks_base" remote="pmod" />
-	<project path="frameworks/native" name="PureNexusProject-Mod/android_frameworks_native" remote="pmod" />
-	<project path="frameworks/opt/telephony" name="PureNexusProject-Mod/android_frameworks_opt_telephony" remote="pmod" />
-	<project path="frameworks/opt/net/ims" name="PureNexusProject-Mod/android_frameworks_opt_net_ims" remote="pmod" />
-	<project path="frameworks/opt/net/wifi" name="PureNexusProject-Mod/android_frameworks_opt_net_wifi" remote="pmod" />
-	<project path="frameworks/rs" name="PureNexusProject-Mod/android_frameworks_rs" remote="pmod" />
-	<project path="frameworks/support" name="PureNexusProject-Mod/android_frameworks_support" remote="pmod" />
-	
-	<project path="hardware/libhardware" name="PureNexusProject-Mod/android_hardware_libhardware" remote="pmod" />
-	<project path="hardware/ril" name="PureNexusProject-Mod/android_hardware_ril" remote="pmod" />
-	<project path="hardware/ril-caf" name="PureNexusProject-Mod/android_hardware_ril" remote="pmod" revision="n-mr2-caf" />
-
-	<project path="libcore" name="PureNexusProject-Mod/android_libcore" remote="pmod" />
-	
-	<project path="packages/apps/PureOTA" name="PureNexusProject-Mod/android_packages_apps_PureOTA" remote="pmod" />
-	<project path="packages/apps/DUI" name="PureNexusProject-Mod/android_packages_apps_DUI" remote="pmod" />
-	<!-- <project path="packages/apps/FMRadio" name="PureNexusProject-Mod/android_packages_apps_FMRadio" remote="pmod" /> -->
-	<project path="packages/apps/Snap" name="PureNexusProject-Mod/android_packages_apps_Snap" remote="pmod" />
-	<project path="packages/apps/MusicFX" name="PureNexusProject-Mod/android_packages_apps_MusicFX" remote="pmod" />
-	<project path="packages/apps/Gallery2" name="PureNexusProject-Mod/android_packages_apps_Gallery2" remote="pmod" />
-	<project path="packages/services/Telephony" name="PureNexusProject-Mod/android_packages_services_Telephony" remote="pmod" />
-	<project path="packages/services/Telecomm" name="PureNexusProject-Mod/android_packages_services_Telecomm" remote="pmod" />
-	<project path="packages/services/ThemeInterfacer" name="PureNexusProject-Mod/android_packages_services_ThemeInterfacer" remote="pmod" />
-	<project path="packages/apps/PureSettings" name="PureNexusProject-Mod/android_packages_apps_PureSettings" remote="pmod" />
-	<project path="packages/apps/Settings" name="PureNexusProject-Mod/android_packages_apps_Settings" remote="pmod" />
-	<project path="packages/apps/Nfc" name="PureNexusProject-Mod/android_packages_apps_Nfc" remote="pmod" />
-	<project path="packages/apps/DSPlibs" name="PureNexusProject-Mod/android_packages_apps_DSPlibs" remote="pmod" />
-	<project path="external/wpa_supplicant_8" name="PureNexusProject-Mod/android_external_wpa_supplicant_8" remote="pmod" />
-	<project path="external/DUtils" name="PureNexusProject-Mod/android_external_DUtils" remote="pmod" />
-
-	<project path="prebuilts/build-tools" name="PureNexusProject-Mod/android_prebuilts_build-tools" remote="pmod" clone-depth="1" />
-	<project path="prebuilts/misc" name="PureNexusProject-Mod/android_prebuilts_misc" remote="pmod" clone-depth="1" />
-	<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="PureNexusProject-Mod/arm-eabi-4.8" remote="pmod" clone-depth="1" />
-	<project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="PureNexusProject-Mod/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="pmod" clone-depth="1" />
-
-	<project path="system/bt" name="PureNexusProject-Mod/android_system_bt" remote="pmod" />
-	<project path="system/core" name="PureNexusProject-Mod/android_system_core" remote="pmod" />
-	<project path="system/extras" name="PureNexusProject-Mod/android_system_extras" remote="pmod" />
-	<project path="system/sepolicy" name="PureNexusProject-Mod/android_system_sepolicy" remote="pmod" />
-	<project path="system/media" name="PureNexusProject-Mod/android_system_media" remote="pmod" />
-	<project path="system/vold" name="PureNexusProject-Mod/android_system_vold" remote="pmod" />
-	
-	<project path="vendor/pure" name="PureNexusProject-Mod/android_vendor_pure" remote="pmod" >
+	<project path="bootable/recovery" name="PureNexusProject-Mod/android_bootable_recovery" remote="PMod" />
+	<project path="development" name="PureNexusProject-Mod/android_development" remote="PMod" />
+	<project path="libcore" name="PureNexusProject-Mod/android_libcore" remote="PMod" />
+	<!-- <project path="vendor/gapps" name="PureNexusProject-Mod/vendor_gapps" remote="gitlab-anderson" clone-depth="1" /> -->
+	<project path="vendor/pure" name="PureNexusProject-Mod/android_vendor_pure" remote="PMod" >
 		<linkfile src="build.sh" dest="build.sh" />
 	</project>
+
+	<!-- Frameworks -->
+	<project path="frameworks/av" name="PureNexusProject-Mod/android_frameworks_av" remote="PMod" />
+	<project path="frameworks/base" name="PureNexusProject-Mod/android_frameworks_base" remote="PMod" />
+	<project path="frameworks/native" name="PureNexusProject-Mod/android_frameworks_native" remote="PMod" />
+	<project path="frameworks/opt/telephony" name="PureNexusProject-Mod/android_frameworks_opt_telephony" remote="PMod" />
+	<project path="frameworks/opt/net/ims" name="PureNexusProject-Mod/android_frameworks_opt_net_ims" remote="PMod" />
+	<project path="frameworks/opt/net/wifi" name="PureNexusProject-Mod/android_frameworks_opt_net_wifi" remote="PMod" />
+	<project path="frameworks/rs" name="PureNexusProject-Mod/android_frameworks_rs" remote="PMod" />
+	<project path="frameworks/support" name="PureNexusProject-Mod/android_frameworks_support" remote="PMod" />
+
+	<!-- System -->
+	<project path="system/bt" name="PureNexusProject-Mod/android_system_bt" remote="PMod" />
+	<project path="system/core" name="PureNexusProject-Mod/android_system_core" remote="PMod" />
+	<project path="system/extras" name="PureNexusProject-Mod/android_system_extras" remote="PMod" />
+	<project path="system/sepolicy" name="PureNexusProject-Mod/android_system_sepolicy" remote="PMod" />
+	<project path="system/vold" name="PureNexusProject-Mod/android_system_vold" remote="PMod" />
+	<project path="system/media" name="PureNexusProject-Mod/android_system_media" remote="PMod" />
+
+	<!-- Hardware -->
+	<project path="device/qcom/sepolicy" name="PureNexusProject-Mod/android_device_qcom_sepolicy" remote="PMod" />
+	<project path="device/qcom/common" name="PureNexusProject-Mod/android_device_qcom_common" remote="PMod" />
+	<project path="hardware/libhardware" name="PureNexusProject-Mod/android_hardware_libhardware" remote="PMod" />
+	<project path="hardware/ril" name="PureNexusProject-Mod/android_hardware_ril" remote="PMod" />
+	<project path="hardware/ril-caf" name="PureNexusProject-Mod/android_hardware_ril" remote="PMod" revision="n-mr2-caf" />
+
+	<!-- Apps -->
+	<project path="packages/apps/DSPlibs" name="PureNexusProject-Mod/android_packages_apps_DSPlibs" remote="PMod" />
+	<project path="packages/apps/DUI" name="PureNexusProject-Mod/android_packages_apps_DUI" remote="PMod" />
+	<project path="packages/apps/FMRadio" name="PureNexusProject-Mod/android_packages_apps_FMRadio" remote="PMod" />
+	<project path="packages/apps/Gallery2" name="PureNexusProject-Mod/android_packages_apps_Gallery2" remote="PMod" />
+	<project path="packages/apps/MusicFX" name="PureNexusProject-Mod/android_packages_apps_MusicFX" remote="PMod" />
+	<project path="packages/apps/Nfc" name="PureNexusProject-Mod/android_packages_apps_Nfc" remote="PMod" />
+	<project path="packages/apps/PureOTA" name="PureNexusProject-Mod/android_packages_apps_PureOTA" remote="PMod" />
+	<project path="packages/apps/PureSettings" name="PureNexusProject-Mod/android_packages_apps_PureSettings" remote="PMod" />
+	<project path="packages/apps/Settings" name="PureNexusProject-Mod/android_packages_apps_Settings" remote="PMod" />
+	<project path="packages/apps/Snap" name="PureNexusProject-Mod/android_packages_apps_Snap" remote="PMod" />
+	<project path="packages/services/Telephony" name="PureNexusProject-Mod/android_packages_services_Telephony" remote="PMod" />
+	<project path="packages/services/Telecomm" name="PureNexusProject-Mod/android_packages_services_Telecomm" remote="PMod" />
+	<project path="packages/services/ThemeInterfacer" name="PureNexusProject-Mod/android_packages_services_ThemeInterfacer" remote="PMod" />
+
+	<!-- External -->
+	<project path="external/DUtils" name="PureNexusProject-Mod/android_external_DUtils" remote="PMod" />
+	<project path="external/wpa_supplicant_8" name="PureNexusProject-Mod/android_external_wpa_supplicant_8" remote="PMod" />
+
+	<!-- Prebuilts and Toolchains -->
+	<project path="prebuilts/build-tools" name="PureNexusProject-Mod/android_prebuilts_build-tools" remote="PMod" clone-depth="1" />
+	<project path="prebuilts/misc" name="PureNexusProject-Mod/android_prebuilts_misc" remote="PMod" clone-depth="1" />
+	<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="PureNexusProject-Mod/arm-eabi-4.8" remote="PMod" clone-depth="1" />
+	<project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="PureNexusProject-Mod/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="PMod" clone-depth="1" />
 </manifest>
