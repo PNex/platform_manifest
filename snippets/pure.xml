@@ -51,9 +51,9 @@
 	<!-- <project path="system/vold" name="PNex/android_system_vold" groups="pdk" remote="PNex" /> -->
 
 	<project path="vendor/gapps" name="PureNexus/vendor_gapps" remote="GLab" revision="n-mr2" clone-depth="1" />
-	<!-- <project path="vendor/pure" name="PNex/android_vendor_pure" remote="PNex">
+	<project path="vendor/pure" name="PNex/android_vendor_pure" remote="PNex">
 		<linkfile src="build.sh" dest="build.sh" />
-	</project> -->
+	</project>
 
 	<!-- Device Source -->
 	<!-- <project path="device/google/dragon" name="PNex/android_device_google_dragon" groups="device,dragon,pdk" remote="PNex" /> -->
