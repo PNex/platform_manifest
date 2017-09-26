@@ -22,9 +22,9 @@
 	<project path="development" name="PureNexusProject-Mod/android_development" remote="PMod" />
 	<project path="libcore" name="PureNexusProject-Mod/android_libcore" remote="PMod" />
 	<!-- <project path="vendor/gapps" name="PureNexusProject-Mod/vendor_gapps" remote="gitlab-anderson" clone-depth="1" /> -->
-	<project path="vendor/pure" name="PureNexusProject-Mod/android_vendor_pure" remote="PMod" >
+	<!-- <project path="vendor/pure" name="PureNexusProject-Mod/android_vendor_pure" remote="PMod" >
 		<linkfile src="build.sh" dest="build.sh" />
-	</project>
+	</project> -->
 
 	<!-- Frameworks -->
 	<project path="frameworks/av" name="PureNexusProject-Mod/android_frameworks_av" remote="PMod" />
