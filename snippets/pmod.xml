@@ -14,10 +14,10 @@
 	</project>
 	<project path="build/blueprint" name="PureNexusProject-Mod/android_build_blueprint" remote="PMod" />
 	<project path="build/kati" name="PureNexusProject-Mod/android_build_kati" remote="PMod" />
-	<project path="build/soong" name="PureNexusProject-Mod/android_build_soong" remote="PMod" >
+	<!-- <project path="build/soong" name="PureNexusProject-Mod/android_build_soong" remote="PMod" >
 		<linkfile src="root.bp" dest="Android.bp" />
 		<linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-	</project>
+	</project> -->
 	<project path="bootable/recovery" name="PureNexusProject-Mod/android_bootable_recovery" remote="PMod" />
 	<project path="development" name="PureNexusProject-Mod/android_development" remote="PMod" />
 	<project path="libcore" name="PureNexusProject-Mod/android_libcore" remote="PMod" />

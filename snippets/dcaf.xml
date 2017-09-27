@@ -5,4 +5,8 @@
            	revision="n-mr2" /> 
 
 	<project path="bionic" name="Dragons-CAF/platform_bionic" remote="dcaf" />
+	<project name="platform/build/soong" path="build/soong" groups="pdk,tradefed" >
+	    <linkfile dest="Android.bp" src="root.bp" />
+	    <linkfile dest="bootstrap.bash" src="bootstrap.bash" />
+  	</project>
 </manifest>
