@@ -478,5 +478,6 @@
 	<include name="snippets/pmod.xml" />
 	<include name="snippets/du.xml" />
 	<include name="snippets/los.xml" />
+	<include name="snippets/caf.xml" />
 	<include name="snippets/dcaf.xml" />
 </manifest>
