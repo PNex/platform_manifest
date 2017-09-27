@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote fetch="https://source.codeaurora.org/quic/la/" name="caf" review="codeaurora.org"/>
+	<remote fetch="https://source.codeaurora.org/quic/" name="caf" review="codeaurora.org"/>
 
 	<project groups="pdk,tradefed" name="la/platform/build/soong" path="build/soong" remote="caf" revision="android-framework.lnx.2.0.r5-rel">
 	    <linkfile dest="Android.bp" src="root.bp"/>
