@@ -8,7 +8,7 @@
 
 	<!-- <project path="manifest" name="manifest" remote="PMod" /> -->
 	<project path="art" name="PureNexusProject-Mod/android_art" remote="PMod" />
-	<project path="bionic" name="PureNexusProject-Mod/android_bionic" remote="PMod" />
+	<!-- <project path="bionic" name="PureNexusProject-Mod/android_bionic" remote="PMod" /> -->
 	<project path="build" name="PureNexusProject-Mod/android_build" remote="PMod">
 		<copyfile src="core/root.mk" dest="Makefile" />
 	</project>

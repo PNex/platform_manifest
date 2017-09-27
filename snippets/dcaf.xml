@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="dcaf"
+           	fetch="https://github.com" 
+           	revision="n-mr2" /> 
+
+	<project path="bionic" name="Dragons-CAF/platform_bionic" remote="dcaf" />
+</manifest>

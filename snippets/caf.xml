@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote fetch="git://codeaurora.org/quic/la" name="caf" review="codeaurora.org"/>
+
+	<project name="platform/external/brctl" path="external/brctl" revision="data-external.lnx.2.1.r5-rel"/>
+	<project name="platform/external/ebtables" path="external/ebtables" revision="data-external.lnx.2.1.r5-rel"/>
+</manifest>

@@ -9,22 +9,22 @@
 	<project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" remote="los" />
 	<project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" remote="los" />
 	<project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="los" />
-	<project path="external/brctl" name="LineageOS/android_external_brctl" remote="los" />
-	<project path="external/connectivity" name="LineageOS/android_external_connectivity" remote="los" />
+	<!-- <project path="external/brctl" name="LineageOS/android_external_brctl" remote="los" /> -->
+	<!-- <project path="external/connectivity" name="LineageOS/android_external_connectivity" remote="los" /> -->
 	<project path="external/e2fsprogs" name="LineageOS/android_external_e2fsprogs" remote="los" />
-	<project path="external/ebtables" name="LineageOS/android_external_ebtables" remote="los" />
-	<project path="external/exfat" name="LineageOS/android_external_exfat" remote="los" />
-	<project path="external/f2fs-tools" name="LineageOS/android_external_f2fs-tools" remote="los" />
-	<project path="external/fuse" name="LineageOS/android_external_fuse" remote="los" />
-	<project path="external/gson" name="LineageOS/android_external_gson" remote="los" />
+	<!-- <project path="external/ebtables" name="LineageOS/android_external_ebtables" remote="los" /> -->
+	<!-- <project path="external/exfat" name="LineageOS/android_external_exfat" remote="los" /> -->
+	<!-- <project path="external/f2fs-tools" name="LineageOS/android_external_f2fs-tools" remote="los" /> -->
+	<!-- <project path="external/fuse" name="LineageOS/android_external_fuse" remote="los" /> -->
+	<!-- <project path="external/gson" name="LineageOS/android_external_gson" remote="los" /> -->
 	<project path="external/ipsec-tools" name="LineageOS/android_external_ipsec-tools" remote="los" />
 	<project path="external/json-c" name="LineageOS/android_external_json-c" remote="los" />
-	<project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="los" />
+	<!-- <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="los" /> -->
 	<project path="external/libnetfilter_conntrack" name="LineageOS/android_external_libnetfilter_conntrack" remote="los" />
-	<project path="external/libnfc-nci" name="LineageOS/android_external_libnfc-nci" remote="los" />
+	<!-- <project path="external/libnfc-nci" name="LineageOS/android_external_libnfc-nci" remote="los" /> -->
 	<project path="external/libnfnetlink" name="LineageOS/android_external_libnfnetlink" remote="los" />
 	<project path="external/powertop" name="LineageOS/android_external_powertop" remote="los" />
-	<project path="external/protobuf-c" name="LineageOS/android_external_protobuf-c" remote="los" />
+	<!-- <project path="external/protobuf-c" name="LineageOS/android_external_protobuf-c" remote="los" /> -->
 	<project path="external/skia" name="LineageOS/android_external_skia" remote="los" />
 	<project path="external/tinycompress" name="LineageOS/android_external_tinycompress" remote="los" />
 	<project path="external/tinyalsa" name="LineageOS/android_external_tinyalsa" remote="los" />
