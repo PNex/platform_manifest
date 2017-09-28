@@ -27,7 +27,7 @@
 		<linkfile src="bootstrap.bash" dest="bootstrap.bash" />
 	</project> -->
 	<project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-	<project path="art" name="platform/art" groups="pdk" />
+	<!-- <project path="art" name="platform/art" groups="pdk" /> -->
 	<!-- <project path="bionic" name="platform/bionic" groups="pdk" /> -->
 	<project path="compatibility/cdd" name="platform/compatibility/cdd" groups="pdk" />
 	<project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
@@ -35,7 +35,7 @@
 	<project path="developers/build" name="platform/developers/build" />
 	<project path="developers/demos" name="platform/developers/demos" />
 	<project path="developers/samples/android" name="platform/developers/samples/android" />
-	<project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
+	<!-- <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" /> -->
 	<project path="device/common" name="device/common" groups="pdk-cw-fs,pdk" />
 	<project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
 	<project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
@@ -347,7 +347,7 @@
 	<project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel,pdk" />
 	<project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors,pdk" />
 	<project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk" />
-	<project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
+	<!-- <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" /> -->
 	<project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
 	<project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt,pdk" />
 	<project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio,pdk" />
@@ -370,7 +370,7 @@
 	<project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3,pdk" />
 	<project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah,pdk" />
 	<project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4,pdk" />
-	<project path="libcore" name="platform/libcore" groups="pdk" />
+	<!-- <project path="libcore" name="platform/libcore" groups="pdk" /> -->
 	<project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
 	<project path="ndk" name="platform/ndk" groups="generic_fs" />
 	<project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
@@ -419,7 +419,7 @@
 	<project path="prebuilts/deqp" name="platform/prebuilts/deqp" groups="pdk-fs" />
 	<project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" />
 	<project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" />
-	<project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" />
+	<!-- <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" /> -->
 	<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" />
 	<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="pdk,linux,arm" />
 	<project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux" />
@@ -431,7 +431,7 @@
 	<project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" groups="pdk-cw-fs,pdk-fs" />
 	<project path="prebuilts/libs/libedit" name="platform/prebuilts/libs/libedit" groups="pdk-cw-fs,pdk-fs" />
 	<project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" groups="pdk-cw-fs,pdk-fs" />
-	<project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" />
+	<!-- <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" /> -->
 	<project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" />
 	<project path="prebuilts/ninja/linux-x86" name="platform/prebuilts/ninja/linux-x86" groups="linux,pdk,tradefed" />
 	<project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs,pdk-fs" />
