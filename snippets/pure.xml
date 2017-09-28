@@ -23,10 +23,10 @@
 	
 	<project path="external/busybox" name="PNex/android_external_busybox" remote="PNex" revision="n-mr2" />
 	
-	<!-- <project path="frameworks/av" name="PNex/android_frameworks_av" groups="pdk" remote="PNex" revision="n-mr2" /> -->
-	<!-- <project path="frameworks/base" name="PureNexusProject-Legacy/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="PNex" revision="n-mr2" clone-depth="1" /> -->
-	<!-- <project path="frameworks/native" name="PNex/android_frameworks_native" groups="pdk" remote="PNex" revision="n-mr2" /> -->
-	<!-- <project path="frameworks/support" name="PNex/android_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="PNex" revision="n-mr2" /> -->
+	<project path="frameworks/av" name="PNex/android_frameworks_av" groups="pdk" remote="PNex" revision="n-mr2" />
+	<project path="frameworks/base" name="PureNexusProject-Legacy/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="PNex" revision="n-mr2" clone-depth="1" />
+	<project path="frameworks/native" name="PNex/android_frameworks_native" groups="pdk" remote="PNex" revision="n-mr2" />
+	<project path="frameworks/support" name="PNex/android_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="PNex" revision="n-mr2" />
 	
 	<project path="packages/apps/Bluetooth" name="PNex/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="PNex" revision="n-mr2" />
 	<project path="packages/apps/CellBroadcastReceiver" name="PNex/android_packages_apps_CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" remote="PNex" revision="n-mr2" />
