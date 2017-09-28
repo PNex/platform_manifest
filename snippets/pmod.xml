@@ -38,12 +38,12 @@
 	<!-- <project path="frameworks/support" name="PureNexusProject-Mod/android_frameworks_support" remote="PMod" clone-depth="1" /> -->
 
 	<!-- System -->
-	<!-- <project path="system/bt" name="PureNexusProject-Mod/android_system_bt" remote="PMod" clone-depth="1" /> -->
-	<!-- <project path="system/core" name="PureNexusProject-Mod/android_system_core" remote="PMod" clone-depth="1" /> -->
-	<!-- <project path="system/extras" name="PureNexusProject-Mod/android_system_extras" remote="PMod" clone-depth="1" /> -->
-	<!-- <project path="system/sepolicy" name="PureNexusProject-Mod/android_system_sepolicy" remote="PMod" clone-depth="1" /> -->
-	<!-- <project path="system/vold" name="PureNexusProject-Mod/android_system_vold" remote="PMod" clone-depth="1" /> -->
-	<!-- <project path="system/media" name="PureNexusProject-Mod/android_system_media" remote="PMod" clone-depth="1" /> -->
+	<project path="system/bt" name="PureNexusProject-Mod/android_system_bt" remote="PMod" clone-depth="1" />
+	<project path="system/core" name="PureNexusProject-Mod/android_system_core" remote="PMod" clone-depth="1" />
+	<project path="system/extras" name="PureNexusProject-Mod/android_system_extras" remote="PMod" clone-depth="1" />
+	<project path="system/sepolicy" name="PureNexusProject-Mod/android_system_sepolicy" remote="PMod" clone-depth="1" />
+	<project path="system/vold" name="PureNexusProject-Mod/android_system_vold" remote="PMod" clone-depth="1" />
+	<project path="system/media" name="PureNexusProject-Mod/android_system_media" remote="PMod" clone-depth="1" />
 
 	<!-- Hardware -->
 	<project path="device/qcom/sepolicy" name="PureNexusProject-Mod/android_device_qcom_sepolicy" remote="PMod" clone-depth="1" />
