@@ -58,7 +58,7 @@
 	<!-- <project path="packages/apps/FMRadio" name="PureNexusProject-Mod/android_packages_apps_FMRadio" remote="PMod" clone-depth="1" /> -->
 	<project path="packages/apps/Gallery2" name="PureNexusProject-Mod/android_packages_apps_Gallery2" remote="PMod" clone-depth="1" />
 	<!-- <project path="packages/apps/MusicFX" name="PureNexusProject-Mod/android_packages_apps_MusicFX" remote="PMod" clone-depth="1" /> -->
-	<project path="packages/apps/Nfc" name="PureNexusProject-Mod/android_packages_apps_Nfc" remote="PMod" clone-depth="1" />
+	<!-- <project path="packages/apps/Nfc" name="PureNexusProject-Mod/android_packages_apps_Nfc" remote="PMod" clone-depth="1" /> -->
 	<project path="packages/apps/PureOTA" name="PureNexusProject-Mod/android_packages_apps_PureOTA" remote="PMod" clone-depth="1" />
 	<!-- <project path="packages/apps/PureSettings" name="PureNexusProject-Mod/android_packages_apps_PureSettings" remote="PMod" clone-depth="1" /> -->
 	<!-- <project path="packages/apps/Settings" name="PureNexusProject-Mod/android_packages_apps_Settings" remote="PMod" clone-depth="1" /> -->
