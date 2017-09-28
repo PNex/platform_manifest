@@ -12,10 +12,10 @@
            	sync-c="true"
           	sync-j="4" />
 
-	<project path="build" name="PNex/android_build" groups="pdk" remote="PNex" revision="n-mr2" >
+	<!-- <project path="build" name="PNex/android_build" groups="pdk" remote="PNex" revision="n-mr2" >
 		<copyfile src="core/root.mk" dest="Makefile" />
-	</project>
-	<project path="build/kati" name="PNex/android_build_kati" groups="pdk,tradefed" remote="PNex" revision="n-mr2" />
+	</project> -->
+	<!-- <project path="build/kati" name="PNex/android_build_kati" groups="pdk,tradefed" remote="PNex" revision="n-mr2" /> -->
 	<project path="bootable/recovery" name="PNex/android_bootable_recovery" groups="pdk" remote="PNex" revision="n-mr2" />
 	<project path="manifest" name="PNex/platform_manifest" remote="PNex" revision="n-mr2" />
 	
