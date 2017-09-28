@@ -45,8 +45,8 @@
 	<!-- <project path="system/media" name="PureNexusProject-Mod/android_system_media" remote="PMod" /> -->
 
 	<!-- Hardware -->
-	<!-- <project path="device/qcom/sepolicy" name="PureNexusProject-Mod/android_device_qcom_sepolicy" remote="PMod" /> -->
-	<!-- <project path="device/qcom/common" name="PureNexusProject-Mod/android_device_qcom_common" remote="PMod" /> -->
+	<project path="device/qcom/sepolicy" name="PureNexusProject-Mod/android_device_qcom_sepolicy" remote="PMod" />
+	<project path="device/qcom/common" name="PureNexusProject-Mod/android_device_qcom_common" remote="PMod" />
 	<!-- <project path="hardware/libhardware" name="PureNexusProject-Mod/android_hardware_libhardware" remote="PMod" /> -->
 	<!-- <project path="hardware/ril" name="PureNexusProject-Mod/android_hardware_ril" remote="PMod" /> -->
 	<!-- <project path="hardware/ril-caf" name="PureNexusProject-Mod/android_hardware_ril" remote="PMod" revision="n-mr2-caf" /> -->
