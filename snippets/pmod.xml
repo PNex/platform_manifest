@@ -27,14 +27,14 @@
 	</project> -->
 
 	<!-- Frameworks -->
-	<!-- <project path="frameworks/av" name="PureNexusProject-Mod/android_frameworks_av" remote="PMod" /> -->
-	<!-- <project path="frameworks/base" name="PureNexusProject-Mod/android_frameworks_base" remote="PMod" /> -->
-	<!-- <project path="frameworks/native" name="PureNexusProject-Mod/android_frameworks_native" remote="PMod" /> -->
+	<project path="frameworks/av" name="PureNexusProject-Mod/android_frameworks_av" remote="PMod" />
+	<project path="frameworks/base" name="PureNexusProject-Mod/android_frameworks_base" remote="PMod" />
+	<project path="frameworks/native" name="PureNexusProject-Mod/android_frameworks_native" remote="PMod" />
 	<!-- <project path="frameworks/opt/telephony" name="PureNexusProject-Mod/android_frameworks_opt_telephony" remote="PMod" /> -->
 	<!-- <project path="frameworks/opt/net/ims" name="PureNexusProject-Mod/android_frameworks_opt_net_ims" remote="PMod" /> -->
 	<!-- <project path="frameworks/opt/net/wifi" name="PureNexusProject-Mod/android_frameworks_opt_net_wifi" remote="PMod" /> -->
 	<!-- <project path="frameworks/rs" name="PureNexusProject-Mod/android_frameworks_rs" remote="PMod" /> -->
-	<!-- <project path="frameworks/support" name="PureNexusProject-Mod/android_frameworks_support" remote="PMod" /> -->
+	<project path="frameworks/support" name="PureNexusProject-Mod/android_frameworks_support" remote="PMod" />
 
 	<!-- System -->
 	<!-- <project path="system/bt" name="PureNexusProject-Mod/android_system_bt" remote="PMod" /> -->
