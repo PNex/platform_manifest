@@ -53,16 +53,16 @@
 	<!-- <project path="hardware/ril-caf" name="PureNexusProject-Mod/android_hardware_ril" remote="PMod" revision="n-mr2-caf" clone-depth="1" /> -->
 
 	<!-- Apps -->
-	<!-- <project path="packages/apps/DSPlibs" name="PureNexusProject-Mod/android_packages_apps_DSPlibs" remote="PMod" clone-depth="1" /> -->
-	<!-- <project path="packages/apps/DUI" name="PureNexusProject-Mod/android_packages_apps_DUI" remote="PMod" clone-depth="1" /> -->
+	<project path="packages/apps/DSPlibs" name="PureNexusProject-Mod/android_packages_apps_DSPlibs" remote="PMod" clone-depth="1" />
+	<project path="packages/apps/DUI" name="PureNexusProject-Mod/android_packages_apps_DUI" remote="PMod" clone-depth="1" />
 	<!-- <project path="packages/apps/FMRadio" name="PureNexusProject-Mod/android_packages_apps_FMRadio" remote="PMod" clone-depth="1" /> -->
-	<!-- <project path="packages/apps/Gallery2" name="PureNexusProject-Mod/android_packages_apps_Gallery2" remote="PMod" clone-depth="1" /> -->
+	<project path="packages/apps/Gallery2" name="PureNexusProject-Mod/android_packages_apps_Gallery2" remote="PMod" clone-depth="1" />
 	<!-- <project path="packages/apps/MusicFX" name="PureNexusProject-Mod/android_packages_apps_MusicFX" remote="PMod" clone-depth="1" /> -->
-	<!-- <project path="packages/apps/Nfc" name="PureNexusProject-Mod/android_packages_apps_Nfc" remote="PMod" clone-depth="1" /> -->
-	<!-- <project path="packages/apps/PureOTA" name="PureNexusProject-Mod/android_packages_apps_PureOTA" remote="PMod" clone-depth="1" /> -->
+	<project path="packages/apps/Nfc" name="PureNexusProject-Mod/android_packages_apps_Nfc" remote="PMod" clone-depth="1" />
+	<project path="packages/apps/PureOTA" name="PureNexusProject-Mod/android_packages_apps_PureOTA" remote="PMod" clone-depth="1" />
 	<!-- <project path="packages/apps/PureSettings" name="PureNexusProject-Mod/android_packages_apps_PureSettings" remote="PMod" clone-depth="1" /> -->
 	<!-- <project path="packages/apps/Settings" name="PureNexusProject-Mod/android_packages_apps_Settings" remote="PMod" clone-depth="1" /> -->
-	<!-- <project path="packages/apps/Snap" name="PureNexusProject-Mod/android_packages_apps_Snap" remote="PMod" clone-depth="1" /> -->
+	<project path="packages/apps/Snap" name="PureNexusProject-Mod/android_packages_apps_Snap" remote="PMod" clone-depth="1" />
 	<!-- <project path="packages/services/Telephony" name="PureNexusProject-Mod/android_packages_services_Telephony" remote="PMod" clone-depth="1" /> -->
 	<!-- <project path="packages/services/Telecomm" name="PureNexusProject-Mod/android_packages_services_Telecomm" remote="PMod" clone-depth="1" /> -->
 	<!-- <project path="packages/services/ThemeInterfacer" name="PureNexusProject-Mod/android_packages_services_ThemeInterfacer" remote="PMod" clone-depth="1" /> -->
