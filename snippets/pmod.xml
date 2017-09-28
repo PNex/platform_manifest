@@ -4,7 +4,8 @@
            	fetch="https://github.com/" 
            	revision="n-mr2"
            	sync-c="true"
-          	sync-j="4" />
+          	sync-j="4" 
+          	clone-depth="1"/>
 
 	<!-- <project path="manifest" name="manifest" remote="PMod" /> -->
 	<project path="art" name="PureNexusProject-Mod/android_art" remote="PMod" clone-depth="1" />

@@ -4,13 +4,15 @@
            	fetch="https://github.com/" 
            	revision="n-mr2"
            	sync-c="true"
-          	sync-j="4" />
+          	sync-j="4" 
+          	clone-depth="1" />
 
     <remote name="GLab"
            	fetch="https://gitlab.com/" 
            	revision="n-mr2"
            	sync-c="true"
-          	sync-j="4" />
+          	sync-j="4" 
+          	clone-depth="1" />
 
 	<!-- <project path="build" name="PNex/android_build" groups="pdk" remote="PNex" revision="n-mr2" >
 		<copyfile src="core/root.mk" dest="Makefile" />

@@ -3,23 +3,27 @@
 	<remote name="github"
 			fetch="https://github.com" 
 			sync-c="true"
-          	sync-j="4" />
+          	sync-j="4" 
+          	clone-depth="1" />
 
 	<remote name="gitlab"
 			fetch="https://gitlab.com/" 
 			sync-c="true"
-          	sync-j="4" /> 
+          	sync-j="4" 
+          	clone-depth="1" /> 
 
 	<remote name="aosp"
 			fetch="https://android.googlesource.com"
 			review="android-review.googlesource.com" 
 			sync-c="true"
-          	sync-j="4" />
+          	sync-j="4" 
+          	clone-depth="1" />
 
 	<default revision="refs/tags/android-7.1.2_r33"
 			remote="aosp"
 			sync-c="true"
-			sync-j="4" />
+			sync-j="4" 
+			clone-depth="1" />
 
 	<!-- <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" /> -->
 	<!-- <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" >
@@ -348,7 +352,7 @@
 	<project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors,pdk" />
 	<project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk" />
 	<!-- <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" /> -->
-	<project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
+	<!-- <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" /> -->
 	<project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt,pdk" />
 	<project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio,pdk" />
 	<project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk" />
@@ -476,8 +480,8 @@
 	<include name="snippets/gemini.xml" />
 	<include name="snippets/pure.xml" />
 	<include name="snippets/pmod.xml" />
-	<!-- <include name="snippets/du.xml" /> -->
-	<!-- <include name="snippets/los.xml" /> -->
+	<include name="snippets/du.xml" />
+	<include name="snippets/los.xml" />
 	<!-- <include name="snippets/caf.xml" /> -->
 	<!-- <include name="snippets/dcaf.xml" /> -->
 </manifest>
