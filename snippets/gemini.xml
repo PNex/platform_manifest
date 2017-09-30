@@ -4,7 +4,8 @@
            	fetch="https://github.com/" 
            	revision="n-mr2"
            	sync-c="true"
-          	sync-j="4" />
+          	sync-j="4" 
+          	clone-depth="1" />
 
 	<!-- DEVICE, KERNEL & PROPRIETARY -->
 	<project path="device/xiaomi/gemini" name="PNex/inimeg_imoaix_ecived" remote="github" revision="n-mr2" />
